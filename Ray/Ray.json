@@ -31,6 +31,31 @@
       "filterable": 0
     },
     {
+      "key": "玩偶",
+      "name": "玩偶哥哥(网盘4K)",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "aliToken": "tvfan/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://api.wogg.xyz/",
+        "danMu": "弹"
+      }
+    },
+    {
+      "key": "短剧",
+      "name": "短剧",
+      "type": 3,
+      "api": "csp_Djuu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "快看",
       "name": "快看",
       "type": 3,
@@ -51,8 +76,28 @@
       "changeable": 1
     },
     {
-      "key": "Xinsj",
-      "name": "新视觉",
+      "key": "苹果",
+      "name": "苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "BP",
+      "name": "BP",
+      "type": 3,
+      "api": "csp_BaiPiao",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.baipiaoys.com:9092/"
+    },
+    {
+      "key": "视觉",
+      "name": "视觉",
       "type": 3,
       "api": "csp_Xinsj",
       "timeout": 15,
@@ -65,83 +110,48 @@
       "key": "厂长",
       "name": "厂长",
       "type": 3,
-      "api": "csp_Czsapp",
+      "api": "csp_NewCz",
       "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.czzy77.com/"
+      "ext": "https://www.czys.top/"
+    },
+    {
+      "key": "七七",
+      "name": "七七",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "南瓜",
       "name": "南瓜",
       "type": 3,
       "api": "csp_NanGua",
+      "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "csp_WoGG",
-      "name": "玩偶哥哥(饭太硬)",
+      "key": "农民",
+      "name": "农民",
       "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.json+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
-    },
-    {
-      "key": "荐片",
-      "name": "荐片",
-      "type": 3,
+      "api": "csp_Nmys",
+      "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "playerType": "1",
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/jp.js"
+      "ext": "./lib/nmys.json"
     },
     {
-      "key": "drpy_js_lf_p2p",
-      "name": "磁力p2p(搜索)",
-      "type": 3,
-      "api": "./lib/lf_p2p1_min.js"
-    },
-    {
-      "key": "苹果",
-      "name": "小苹果",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Baipiao",
-      "name": "Baipiao",
-      "type": 3,
-      "api": "csp_BaiPiao",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://www.baipiaoys.com/"
-    },
-    {
-      "key": "csp_Bttoo",
-      "name": "Bttwoo",
-      "type": 3,
-      "api": "csp_Bttwoo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "DiDuan",
+      "key": "低端",
       "name": "低端",
       "type": 3,
       "api": "csp_Ddrk",
@@ -151,36 +161,51 @@
       "changeable": 1
     },
     {
-      "key": "追剧",
-      "name": "追剧",
+      "key": "毛驴",
+      "name": "毛驴",
+      "type": 3,
+      "api": "csp_MLYS",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.maolvys.com/"
+    },
+    {
+      "key": "萌米",
+      "name": "萌米",
       "type": 3,
       "api": "csp_AppTT",
-      "playerType": 2,
-      "ext": "AO7TcBkd8Jqf5UgA7xXA6dVlLcc="
+      "timeout": 15,
+      "playerType": 1,
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
-      "key": "77",
-      "name": "七七",
+      "key": "Bt",
+      "name": "Bt",
       "type": 3,
-      "api": "csp_Kunyu77",
+      "api": "csp_Bttwoo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "一起看 ",
-      "name": "一起看",
+      "key": "zxzj",
+      "name": "在线之家",
       "type": 3,
-      "api": "csp_YQKan",
+      "api": "csp_Zxzj",
+      "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "ext": "https://www.zxzja.com/"
     },
     {
       "key": "Lib",
       "name": "Libvio",
       "type": 3,
       "api": "csp_Libvio",
+      "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -191,62 +216,22 @@
       "name": "Auete",
       "type": 3,
       "api": "csp_Auete",
+      "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://auete.pro/"
     },
     {
-      "key": "农民",
-      "name": "农民",
+      "key": "荐片",
+      "name": "荐片p2p",
       "type": 3,
-      "api": "csp_Nmys",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "./lib/nmys.json"
-    },
-    {
-      "key": "drpy_js_量子资源",
-      "name": "量子[js]",
-      "type": 3,
+      "playerType": "1",
       "api": "./lib/drpy2.min.js",
-      "ext": "./lib/量子资源.js"
-    },
-    {
-      "key": "鑫鑫[V2]",
-      "name": "鑫鑫[V2][js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/鑫鑫[V2].js"
-    },
-    {
-      "key": "ikanbot3",
-      "name": "ikanbot3[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/ikanbot3.js"
-    },
-    {
-      "key": "新视觉js",
-      "name": "新视觉[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/新视觉影视.js"
-    },
-    {
-      "key": "drpy_js_Auete",
-      "name": "Auete[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/Auete.js"
-    },
-    {
-      "key": "drpy_js_LIBVIO",
-      "name": "LIBVIO[js]",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/LIBVIO.js"
+      "ext": "./lib/jp.js"
     },
     {
       "key": "新6V",
@@ -257,6 +242,12 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "http://www.xb6v.com/"
+    },
+    {
+      "key": "drpy_js_lf_p2p",
+      "name": "磁力p2p(搜索)",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/lf_p2p1_min.js"
     },
     {
       "key": "腐宅",
@@ -270,12 +261,39 @@
       "ext": "http://app.zhaifutvapp.com/ruifenglb_api.php/v1.vod"
     },
     {
-      "key": "暴风",
-      "name": "暴风",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
+      "key": "drpy_js_量子资源",
+      "name": "量子[js]",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/量子资源.js"
+    },
+    {
+      "key": "鑫鑫[V2]",
+      "name": "鑫鑫[V2][js]",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/鑫鑫[V2].js"
+    },
+    {
+      "key": "ikanbot3",
+      "name": "ikanbot3[js]",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/ikanbot3.js"
+    },
+    {
+      "key": "新视觉js",
+      "name": "新视觉[js]",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/新视觉影视.js"
+    },
+    {
+      "key": "drpy_js_Auete",
+      "name": "Auete[js]",
+      "type": 3,
+      "api": "https://agit.ai/dxawi/ray/raw/branch/master/JS/lib/drpy2.min.js",
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/JS/js/Auete.js"
     },
     {
       "key": "YiSo",
@@ -348,7 +366,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/bilibili.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/bilibili.json"
     },
     {
       "key": "课堂教育",
@@ -358,7 +376,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/xx1.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx1.json"
     },
     {
       "key": "少儿教育",
@@ -368,7 +386,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/xx2.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx2.json"
     },
     {
       "key": "小学教育",
@@ -378,7 +396,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/xx3.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx3.json"
     },
     {
       "key": "初中教育",
@@ -388,7 +406,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/xx4.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx4.json"
     },
     {
       "key": "高中教育",
@@ -398,34 +416,75 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/xx5.json"
+      "ext": "https://agit.ai/dxawi/ray/raw/branch/master/json/xx5.json"
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
     }
   ],
   "rules": [
     {
-      "name": "hwk",
+      "name": "kk",
       "hosts": [
-        "haiwaikan"
+        "kuaikan"
       ],
       "regex": [
-        "10.0099",
-        "10.3333",
-        "16.0599",
-        "8.1748",
-        "12.33",
-        "10.85"
+        "5",
+        "20.123",
+        "20.167",
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-KEY:METHOD((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-DISCONTINUITY"
       ]
     },
     {
       "name": "yqk",
       "hosts": [
-        "yqk88"
+        "yqk"
       ],
       "regex": [
         "18.4",
         "15.1666",
-        "16.5333",
-        "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-CUE-IN"
+        "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
       ]
     },
     {
@@ -462,11 +521,15 @@
     {
       "name": "lz",
       "hosts": [
-        "lz"
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz",
+        "yzzy1.play"
       ],
       "regex": [
         "18.5333",
-        "19.52"
+        "19.52",
+        "18.6666"
       ]
     },
     {

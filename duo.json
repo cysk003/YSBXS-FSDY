@@ -1,21 +1,25 @@
 {
   "urls": [
     {
+      "url": "clan://localhost/tvbox/bala/bala.json",
+      "name": "🚀巴拉线路"
+    },  
+    {
       "url": "clan://localhost/tvbox/fty/fty.json",
       "name": "🚀饭太硬线路"
     },
     {
       "url": "clan://localhost/tvbox/feimao/feimao.json",
       "name": "🚀肥猫线路"
-    },	
+    },
+    {
+      "url": "clan://localhost/tvbox/OK/OK.json",
+      "name": "🚀OK线路"
+    },		
     {
       "url": "clan://localhost/tvbox/PG/PG.json",
       "name": "🚀PG线路"
     },
-    {
-      "url": "clan://localhost/tvbox/fangniu/fangniu.json",
-      "name": "🚀放牛线路"
-    },	
     {
       "url": "clan://localhost/tvbox/Ray/Ray.json",
       "name": "🚀Ray线路"
@@ -25,7 +29,7 @@
       "name": "🚀小米线路"
     },
     {
-      "url": "clan://localhost/tvbox/hechengchaxiu/hechengchaxiu.json",
+      "url": "clan://localhost/tvbox/hecheng/hecheng.json",
       "name": "🚀荷城线路"
     },	
     {
@@ -41,6 +45,10 @@
       "name": "🚀无意线路"
     },
     {
+      "url": "clan://localhost/tvbox/moyu/moyu.json",
+      "name": "🚀摸鱼线路"
+    },		
+    {
       "url": "clan://localhost/tvbox/ouge/ouge.json",
       "name": "🚀欧歌线路"
     },	
@@ -55,11 +63,7 @@
     {
       "url": "clan://localhost/tvbox/gaotianliuyun/gaotianliuyun.json",
       "name": "🚀高天线路"
-    },	
-    {
-      "url": "clan://localhost/tvbox/bala/bala.json",
-      "name": "🚀巴拉线路"
-    },	
+    },		
     {
       "url": "clan://localhost/tvbox/nanfeng/nanfeng.json",
       "name": "🚀南风线路"

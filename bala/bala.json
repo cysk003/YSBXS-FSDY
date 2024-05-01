@@ -48,8 +48,20 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://jxjson.icu/tvbox/PG推送.json$$$https://wogg.xyz/$$$null$$$1$$$https://jxjson.icu/tvbox/wogg.json",
+      "ext": "http://jxjson.icu/tvbox/PG推送.json$$$https://www.wogg.link/$$$null$$$1$$$https://jxjson.icu/tvbox/wogg.json",
       "timeout": 30,
+      "jar": "./lib/pg.jar"
+    },
+    {
+      "key": "yydsys",
+      "name": "┃阿里盘搜┃请勿相信视频内广告",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "http://jxjson.icu/tvbox/PG推送.json$$$https://tv.yydsys.top/$$$null$$$1$$$https://jxjson.icu/tvbox/wogg.json",
       "jar": "./lib/pg.jar"
     },
     {
@@ -126,7 +138,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "jar": "./lib/厂长.jar",
-      "ext": "https://www.czzy88.com/"
+      "ext": "https://www.czys.top/"
     },
     {
       "key": "drpy_js_虎牙",
@@ -163,7 +175,7 @@
       "name": "🎧┃有声┃小说",
       "type": 3,
       "api": "./lib/drpymin.js",
-      "ext": "./lib/有声小说吧.js",
+      "ext": "https://agit.ai/fantaiying/dr_py/raw/branch/main/js/有声小说吧.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -214,6 +226,14 @@
       "url": "https://jxjson.icu/434684601.php?url=",
       "header": {
         "User-Agent": "okhttp/4.1.0"
+      }
+    },
+    {
+      "name": "芒果接口",
+      "type": 1,
+      "url": "http://119.91.123.253:2345/Api/yun.php?url=",
+      "header": {
+        "User-Agent": "okhttp/4.9.3"
       }
     }
   ],

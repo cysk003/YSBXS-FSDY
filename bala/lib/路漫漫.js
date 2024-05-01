@@ -1,6 +1,6 @@
 var rule = {
 	title:'路漫漫',
-	host:'https://www.lmmvip.com/',
+	host:'https://dm.92cj.com/',
 	url:'/vod/show/id/fyclassfyfilter.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'{{fl.by}}/page/fypage{{fl.year}}',

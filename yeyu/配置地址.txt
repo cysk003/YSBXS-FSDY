@@ -1,1 +1,1 @@
-clan://localhost/tvbox/yeyu/yeyu.json
+clan://localhost/tvbox/yydf/yydf.json

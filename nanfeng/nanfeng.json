@@ -1,5 +1,5 @@
 {
-  "spider": "./Yoursmile.jar;md5;C12ED4AC52E98E5D71D54FACC6E8693E",
+  "spider": "./Yoursmile.jar;md5;37F423F908626D3019778B132D20FCFA",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
@@ -12,14 +12,14 @@
       "filterable": 1
     },
     {
-      "key": "csp_Czsapp",
+      "key": "csp_NewCz",
       "name": "🏭厂长",
       "type": 3,
-      "api": "csp_Czsapp",
+      "api": "csp_NewCz",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://www.czzy77.com/"
+      "ext": "https://www.czys.top/"
     },
     {
       "key": "csp_AppTT",
@@ -82,7 +82,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://www.baipiaoys.com/"
+      "ext": "https://www.baipiaoys.com:9092/"
     },
     {
       "key": "csp_Jianpian",
@@ -172,23 +172,14 @@
       "filterable": 1
     },
     {
-      "key": "csp_YQKan",
-      "name": "🌎一起看",
+      "key": "csp_Zxzj",
+      "name": "🏚️在线",
       "type": 3,
-      "api": "csp_YQKan",
+      "api": "csp_Zxzj",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "360",
-      "name": "💘360",
-      "type": 3,
-      "api": "csp_SP33",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "ext": "https://www.zxzja.com/"
     },
     {
       "key": "csp_SixV",
@@ -237,6 +228,16 @@
       "filterable": 1
     },
     {
+      "key": "csp_Djuu",
+      "name": "🌈短剧",
+      "type": 3,
+      "api": "csp_Djuu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
       "key": "csp_Yj1211",
       "name": "📽️在线直播",
       "type": 3,
@@ -272,64 +273,79 @@
       "api": "csp_WoGG",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd",
+        "siteUrl": "https://api.wogg.xyz/",
+        "danMu": "弹"
+      }
     },
     {
-      "key": "YiSo",
+      "key": "csp_YiSo",
       "name": "🆎易搜",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
-      "key": "PanSou",
+      "key": "csp_PanSou",
       "name": "📀盘搜",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
-      "key": "UpYun",
-      "name": "☁️UP云搜",
+      "key": "csp_UpYun",
+      "name": "☁️Up云搜",
       "type": 3,
       "api": "csp_UpYun",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
-      "key": "PanSearch",
+      "key": "csp_PanSearch",
       "name": "🙀盘搜索",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
-      "key": "Dovx",
-      "name": "😾七夜",
+      "key": "csp_QuarkPanso",
+      "name": "🐺夸搜",
       "type": 3,
-      "api": "csp_Dovx",
+      "api": "csp_QuarkPanso",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "push_agent",
@@ -338,8 +354,11 @@
       "api": "csp_Push",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "aliToken": "http://127.0.0.1:9978/file/fatcat/token.txt",
+        "quarkCookie": "tvfan/cookie.txt",
+        "from": "4k|auto|fhd"
+      }
     },
     {
       "key": "csp_Nbys",
@@ -349,25 +368,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_trj",
-      "name": "🛫唐人街(墙外)",
-      "type": 3,
-      "api": "csp_Tangrenjie",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "农民",
-      "name": "🥝农民",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/农民影视.json"
     },
     {
       "key": "骚火",
@@ -445,7 +445,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/虎牙直播.js"
+      "ext": "http://152.32.170.60//Yoursmile7/TVBox/raw/branch/master/js/虎牙直播.js"
     },
     {
       "key": "drpy_js_斗鱼直播",
@@ -771,64 +771,13 @@
   ],
   "rules": [
     {
-      "name": "wp",
-      "hosts": [
-        "vip.123pan.cn",
-        "rescdn.wuxivlog.cn"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "索尼",
-      "hosts": [
-        "suonizy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15.1666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:15.2666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "海外看",
-      "hosts": [
-        "haiwaikan"
-      ],
-      "regex": [
-        "8.1748",
-        "10.0099",
-        "10.3333"
-      ]
-    },
-    {
-      "name": "星星",
-      "hosts": [
-        "aws.ulivetv.net"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "农民",
-      "hosts": [
-        "toutiaovod.com"
-      ],
-      "regex": [
-        "video/tos/cn"
-      ]
-    },
-    {
       "name": "kk",
       "hosts": [
         "kuaikan"
       ],
       "regex": [
+        "15.32",
+        "15.231",
         "5",
         "20.123",
         "20.167",
@@ -843,6 +792,7 @@
       "regex": [
         "18.4",
         "15.1666",
+        "16.5333",
         "#EXT-X-DISCONTINUITY\\r*\\n*((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-OUT((?!#EXT-X-DISCONTINUITY)[\\s\\S])*?#EXT-X-CUE-IN"
       ]
     },
@@ -852,8 +802,20 @@
         "suonizy"
       ],
       "regex": [
+        "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
         "15.1666",
-        "15.2666"
+        "15.2666",
+        "16.3333",
+        "15.266667"
+      ]
+    },
+    {
+      "name": "bf",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
       ]
     },
     {
@@ -866,44 +828,59 @@
       ]
     },
     {
-      "name": "量子",
+      "name": "lz",
       "hosts": [
         "vip.lz",
-        "v.cdnlz",
         "hd.lz",
+        "v.cdnlz",
         "yzzy1.play"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:18.5333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "18.5333",
+        "19.52",
+        "18.6666",
+        "17.2",
+        "19.84"
       ]
     },
     {
-      "name": "非凡",
+      "name": "ff",
       "hosts": [
         "vip.ffzy",
-        "hd.ffzy"
+        "hd.ffzy",
+        "ffzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:25.0666,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "25.0666",
+        "18.0",
+        "25.08",
+        "20.52",
+        "25.1",
+        "25.1999"
       ]
     },
     {
-      "name": "暴风",
+      "name": "ls",
       "hosts": [
-        "bfzy",
-        "s5.bfzycdn"
+        "leshiyun"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+        "15.92"
       ]
     },
     {
-      "name": "火山",
+      "name": "yz",
+      "hosts": [
+        "yzzy"
+      ],
+      "regex": [
+        "18.66",
+        "19.52",
+        "19.13"
+      ]
+    },
+    {
+      "name": "hs",
       "hosts": [
         "huoshan.com"
       ],
@@ -912,7 +889,7 @@
       ]
     },
     {
-      "name": "抖音",
+      "name": "dy",
       "hosts": [
         "douyin.com"
       ],
@@ -926,9 +903,9 @@
         "magnet"
       ],
       "regex": [
-        "最 新",
-        "直 播",
-        "更 新"
+        "最新",
+        "直播",
+        "更新"
       ]
     }
   ],

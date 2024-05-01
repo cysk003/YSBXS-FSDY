@@ -1,5 +1,5 @@
 {
-  "spider": "./PandaQ240327.jar;md5;d1f7fe48d8dbb45338d393d55086116f",
+  "spider": "./PandaQ240416.jar;md5;9f15ade02721f30f65880bef1271be69",
   "wallpaper": "http://我不是.肥猫.live/ppic/feimao.php",
   "sites": [
     {
@@ -30,7 +30,7 @@
       "name": "🐦┃视觉┃影视",
       "type": 3,
       "api": "csp_Xinsj",
-      "searchable": 0,
+      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.80yy3.com/"
@@ -40,8 +40,28 @@
       "name": "🏔┃耐看┃影视",
       "type": 3,
       "playerType": "2",
-      "api": "csp_Nkdy",
-      "searchable": 0
+      "api": "csp_Nkdy"
+    },
+    {
+      "key": "csp_NfApp",
+      "name": "🔷┃南坊┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_NfApp"
+    },
+    {
+      "key": "csp_Czys",
+      "name": "🍊┃橙汁┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czys"
+    },
+    {
+      "key": "csp_Juqq",
+      "name": "⭕┃剧圈┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Juqq"
     },
     {
       "key": "csp_LiteApple",
@@ -92,7 +112,8 @@
       "api": "csp_Czsapp",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": "https://www.cz233.com/"
     },
     {
       "key": "csp_AppRZ",
@@ -101,13 +122,6 @@
       "playerType": "2",
       "api": "csp_AppRZ",
       "ext": "http://rzys.xyz/"
-    },
-    {
-      "key": "攻阁",
-      "name": "🏮┃攻阁┃影视",
-      "type": 3,
-      "api": "csp_Lggys",
-      "playerType": 2
     },
     {
       "key": "csp_Freeok",
@@ -193,9 +207,7 @@
       "name": "🌅┃白嫖┃影视",
       "type": 3,
       "api": "csp_BaiPiao",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "playerType": "2"
     },
     {
       "key": "saohuo",
@@ -214,19 +226,19 @@
       "ext": "./lib/爱看.js"
     },
     {
-      "key": "外剧影视",
-      "name": "🙋┃外剧┃影视",
-      "type": 3,
-      "playerType": "1",
-      "api": "csp_KmeiJu"
-    },
-    {
       "key": "云播影视",
       "name": "☁️┃云播┃影视",
       "type": 3,
       "playerType": "2",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/TVB云播.js"
+    },
+    {
+      "key": "小蚂蚁",
+      "name": "🐜┃蚂蚁┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/小蚂蚁2.js"
     },
     {
       "key": "csp_Xb6v",
@@ -694,9 +706,7 @@
         "ffzy"
       ],
       "regex": [
-        "25.0666",
-        "25.08",
-        "20.52"
+        "18.0"
       ]
     },
     {
@@ -705,8 +715,8 @@
         "lz"
       ],
       "regex": [
-        "18.5333",
-        "19.52"
+        "17.2",
+        "19.84"
       ]
     },
     {
@@ -724,6 +734,7 @@
         "yzzy"
       ],
       "regex": [
+        "18.66",
         "19.52",
         "19.13"
       ]
@@ -745,20 +756,8 @@
         "kuaikan"
       ],
       "regex": [
-        "20.123",
-        "20.167"
-      ]
-    },
-    {
-      "name": "♻️索尼",
-      "hosts": [
-        "suonizy"
-      ],
-      "regex": [
-        "16.3333",
-        "15.1666",
-        "15.2666",
-        "#EXTINF.*?\\s+.*?original.*?\\.ts\\s+"
+        "15.32",
+        "15.231"
       ]
     },
     {
@@ -768,16 +767,6 @@
       ],
       "regex": [
         "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+"
-      ]
-    },
-    {
-      "name": "♻️蜗牛",
-      "hosts": [
-        "vip.123pan.cn",
-        "rescdn.wuxivlog.cn"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY[\\s\\S]+?#EXT-X-DISCONTINUITY"
       ]
     },
     {

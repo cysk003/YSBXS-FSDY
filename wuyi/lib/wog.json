@@ -7,8 +7,7 @@
     "是否开启获取首页数据": "是",
     "首页推荐链接": "http://wogg.link",
     "首页列表数组规则": "body&&.module-items",
- 
-     "首页片单列表数组规则": ".module-item:not(:matches(饭太硬|公众号))",
+     "首页片单列表数组规则": ".module-item:not(:matches(玩偶哥|哥哥们))",
     "首页片单是否Jsoup写法": "1",
     "分类起始页码": "1",
     "分类链接": "http://wogg.link/index.php/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
@@ -63,7 +62,7 @@
     "播放列表数组规则": ".module-row-one",
     "选集列表数组规则": ".module-row-one",
     "选集标题链接是否Jsoup写法": "是",
-    "选集标题": "h4&&Text",
+    "选集标题": "h4&&Text:not(玩偶哥|哥哥们)",
     "选集链接": ".btn-down&&a&&href",
     "是否反转选集序列": "否",
     "选集链接加前缀": "",

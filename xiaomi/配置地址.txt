@@ -1,1 +1,1 @@
-clan://localhost/tvbox/DEMO/DEMO.json
+clan://localhost/tvbox/xiaomi/xiaomi.json
