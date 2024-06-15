@@ -6,7 +6,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "./lib/zb.txt",
+      "url": "./lib/zhibo.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
@@ -36,8 +36,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
-        "分类url": "http://ys.sxtv.top/index.php/vod/type/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$5"
+        "分类url": "https://ys.sxtv.top/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#4K电影$36#邵氏电影$37"
       }
     },
     {
@@ -68,22 +68,6 @@
       "jar": "./lib/fan.txt"
     },
     {
-      "key": "Wogg",
-      "name": "阿里 | 玩偶哥哥",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://www.wogg.net/",
-        "danmu": true
-      },
-      "jar": "./lib/2.jar"
-    },
-    {
       "key": "厂长",
       "name": "影视 | 厂长",
       "type": 3,
@@ -92,7 +76,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.czys.top/"
+      "ext": "https://czzy.top/"
     },
     {
       "key": "哔嘀",

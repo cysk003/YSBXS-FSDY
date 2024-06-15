@@ -1,2 +1,7 @@
-https://yydf.540734621.xyz/QQ/lib/tokenm.json$$$https://www.wogg.net/|104.16.245.50$$$null$$$1$$$./json/wogg.json
-https://yydf.540734621.xyz/QQ/lib/tokenm.json$$$https://wobge.run.goorm.io$$$null$$$1$$$./json/wogg.json
+http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt
+http://127.0.0.1:9978/file/XYQTVBox/quark_cookie.txt
+https://yydf.540734621.xyz/QQ/json/阿里集合.json;http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt
+http://127.0.0.1:9978/file/XYQTVBox/bili_cookie.txt
+http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$https://wogg.link/$$$proxy$$$1$$$https://yydf.540734621.xyz/QQ/json/wogg.json
+http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$https://duopan.fun/$$$proxy$$$1$$$https://yydf.540734621.xyz/QQ/lib/wogg.json
+http://127.0.0.1:9978/file/XYQTVBox/tokenm.json$$$https://www.80yy3.com/$$$proxy$$$1$$$https://yydf.540734621.xyz/QQ/json/wogg.json

@@ -1,5 +1,5 @@
 {
-  "spider": "./wex.txt;md5;65dfd0d70088b6d29c176bbbea831efc",
+  "spider": "./wex.txt;md5;6622c38b0681db3f6636ed592fbe9b49",
   "wallpaper": "https://牛逼.王二小放牛娃.xyz/img.php",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
@@ -77,10 +77,34 @@
       "changeable": 1
     },
     {
+      "key": "Wexhuaruitv",
+      "name": "🌺花蕊┃影视┃App",
+      "type": 3,
+      "api": "csp_Wexhuaruitv",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexjiazitv",
+      "name": "🥁甲子┃影视┃App",
+      "type": 3,
+      "api": "csp_Wexjiazitv",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "Wexxiongdiys",
       "name": "👬基友┃影视┃App",
       "type": 3,
       "api": "csp_Wexxiongdiys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexyuyueys",
+      "name": "⛈️雨落┃影视┃App",
+      "type": 3,
+      "api": "csp_Wexyuyueys",
       "searchable": 1,
       "changeable": 1
     },
@@ -129,14 +153,6 @@
       "name": "🇰🇷韩圈┃TV┃App",
       "type": 3,
       "api": "csp_Wexhanxiaoquan",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Wexhanjutv",
-      "name": "🇰🇷韩剧┃TV┃App",
-      "type": 3,
-      "api": "csp_Wexhanjutv",
       "searchable": 1,
       "changeable": 1
     },
@@ -209,6 +225,22 @@
       "name": "👓看看┃影视┃直连",
       "type": 3,
       "api": "csp_WexShijuedy",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexsaohuo",
+      "name": "🔥火火┃影视┃直连",
+      "type": 3,
+      "api": "csp_Wexsaohuo",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexzxzj",
+      "name": "🚩外剧┃影视┃直连",
+      "type": 3,
+      "api": "csp_Wexzxzj",
       "searchable": 1,
       "changeable": 1
     },
@@ -310,10 +342,6 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
         "动作片",
         "喜剧片",
         "爱情片",
@@ -321,6 +349,10 @@
         "恐怖片",
         "剧情片",
         "战争片",
+        "古装片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
         "国产剧",
         "香港剧",
         "韩国剧",
@@ -336,11 +368,13 @@
         "国产动漫",
         "欧美动漫",
         "日韩动漫",
-        "爽文短剧",
-        "体育",
-        "NBA",
-        "足球",
-        "篮球"
+        "现代都市",
+        "脑洞悬疑",
+        "年代穿越",
+        "古装仙侠",
+        "女频恋爱",
+        "成长逆袭",
+        "反转爽剧"
       ]
     },
     {
@@ -351,10 +385,6 @@
       "searchable": 1,
       "changeable": 1,
       "categories": [
-        "电影",
-        "连续剧",
-        "综艺",
-        "动漫",
         "动作片",
         "喜剧片",
         "爱情片",
@@ -362,6 +392,10 @@
         "恐怖片",
         "剧情片",
         "战争片",
+        "古装片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
         "国产剧",
         "香港剧",
         "韩国剧",
@@ -377,18 +411,7 @@
         "国产动漫",
         "欧美动漫",
         "日韩动漫",
-        "爽文短剧",
-        "体育",
-        "足球",
-        "NBA",
-        "CBA",
-        "德甲",
-        "意甲",
-        "英超",
-        "西甲",
-        "法甲",
-        "WCBA",
-        "LPL"
+        "爽文短剧"
       ]
     },
     {
@@ -427,8 +450,16 @@
       "changeable": 1
     },
     {
-      "key": "Wexduanjuvip",
+      "key": "vipWexduanju",
       "name": "🌸短劇┃精品┃直连",
+      "type": 3,
+      "api": "csp_Wexvipduanju",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "Wexduanjuvip",
+      "name": "🌸短劇┃良品┃直连",
       "type": 3,
       "api": "csp_Wexduanjuvip",
       "searchable": 1,
@@ -623,34 +654,6 @@
       "ext": "./lib/qie.json"
     },
     {
-      "key": "drpy_js_奇珍异兽",
-      "name": "🦄奇珍┃异兽┃直采",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/奇珍异兽.js"
-    },
-    {
-      "key": "drpy_js_优酷",
-      "name": "🌱酷酷┃的腾┃直采",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/优酷.js"
-    },
-    {
-      "key": "drpy_js_腾云驾雾",
-      "name": "☁️腾云┃驾雾┃直采",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/腾云驾雾.js"
-    },
-    {
-      "key": "drpy_js_百忙无果",
-      "name": "🍑百忙┃无果┃直采",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/百忙无果.js"
-    },
-    {
       "key": "Wexciyuancheng",
       "name": "🤡元城┃番剧",
       "type": 3,
@@ -786,17 +789,17 @@
     {
       "name": "王",
       "type": 1,
-      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url="
+      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
     },
     {
       "name": "二",
       "type": 1,
-      "url": "http://119.91.123.253:2345/Api/yun.php?url="
+      "url": "http://110.42.7.182:880/api/?key=7e84f07dc78fbb3406d64a1ab7d966b3&url="
     },
     {
       "name": "小",
       "type": 1,
-      "url": "http://xxjx.qqwx.ren/?url="
+      "url": "http://43.136.176.188:91/api/?key=4ef232e96172b0bda78d393c695fe7c4&url="
     },
     {
       "name": "帅",
@@ -883,57 +886,6 @@
       ]
     },
     {
-      "name": "索尼",
-      "hosts": [
-        "suonizy"
-      ],
-      "regex": [
-        "15.1666",
-        "15.2666"
-      ]
-    },
-    {
-      "name": "暴風",
-      "hosts": [
-        "bfzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "星星",
-      "hosts": [
-        "aws.ulivetv.net"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "量子",
-      "hosts": [
-        "vip.lz",
-        "hd.lz",
-        "v.cdnlz"
-      ],
-      "regex": [
-        "18.5333"
-      ]
-    },
-    {
-      "name": "非凡",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "25.0666",
-        "25.08",
-        "20.52"
-      ]
-    },
-    {
       "name": "火山嗅探",
       "hosts": [
         "huoshan.com"
@@ -1002,6 +954,15 @@
     "pv.vipwm.cc"
   ],
   "lives": [
+    {
+      "name": "IPv6001",
+      "type": 0,
+      "url": "./lib/tv.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "综合1",
       "type": 0,

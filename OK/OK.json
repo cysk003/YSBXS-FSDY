@@ -1,5 +1,5 @@
 {
-  "spider": "./okpng.txt;md5;4562e20baa41a59a374edfaad596198c",
+  "spider": "./okjpg.txt;md5;e32fe03585d44ca6a418104bc24b25e1",
   "wallpaper": "https://gitee.com/okjack/okk/raw/master/w1.jpg",
   "logo": "./lib/ol.txt",
   "sites": [
@@ -25,60 +25,48 @@
       }
     },
     {
-      "key": "天天弹幕版",
-      "name": "⛅️天天┃弹幕",
+      "key": "天天",
+      "name": "⛅️天天┃直连",
       "type": 3,
       "api": "csp_TianTian",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
-      "key": "酷看弹幕版",
-      "name": "😎酷看┃弹幕",
+      "key": "酷看",
+      "name": "😎酷看┃直连",
       "type": 3,
       "api": "csp_Kkys",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
-      "key": "小苹果弹幕版",
-      "name": "🍎苹果┃弹幕",
-      "type": 3,
-      "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
-      "timeout": 10
-    },
-    {
-      "key": "南瓜弹幕版",
-      "name": "🎃南瓜┃弹幕",
+      "key": "南瓜",
+      "name": "🎃南瓜┃直连",
       "type": 3,
       "api": "csp_Nangua",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
-      "key": "玩偶弹幕版",
-      "name": "👽玩偶┃4K弹幕",
+      "key": "小苹果",
+      "name": "🍎苹果┃直连",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "玩偶",
+      "name": "👽玩偶┃4K",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -86,8 +74,7 @@
       "changeable": 1,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "wogg": true,
-        "danmu": true
+        "wogg": true
       },
       "timeout": 30
     },
@@ -103,43 +90,33 @@
       "timeout": 10
     },
     {
-      "key": "厂长弹幕版",
-      "name": "🌸厂长┃弹幕",
+      "key": "厂长",
+      "name": "🌸厂长┃直连",
       "type": 3,
       "api": "csp_Czzy",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
-      "key": "荐片弹幕版",
-      "name": "⚔️荐片┃手机",
+      "key": "荐片",
+      "name": "🐭荐片┃手机",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
-      "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
-      "key": "JOJO弹幕版",
-      "name": "🍭JOJO┃弹幕",
+      "key": "JOJO",
+      "name": "🍭JOJO┃直连",
       "type": 3,
       "api": "csp_Jiohub",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
@@ -204,8 +181,8 @@
       "timeout": 30
     },
     {
-      "key": "团长弹幕版",
-      "name": "🗽团长┃4K弹幕",
+      "key": "团长",
+      "name": "🗽团长┃4K",
       "type": 3,
       "api": "csp_Tzfile",
       "searchable": 1,
@@ -213,14 +190,13 @@
       "changeable": 1,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 25
     },
     {
-      "key": "土豆网盘弹幕",
-      "name": "🥔土豆┃4K弹幕",
+      "key": "土豆网盘",
+      "name": "🥔土豆┃4K",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
@@ -229,22 +205,18 @@
       "ext": {
         "token": "file://TV/ali_token.txt",
         "cookie": "file://TV/quark_cookie.txt",
-        "site": "https://tudou.lvdoui.top",
-        "danmu": true
+        "site": "https://tudou.lvdoui.top"
       },
       "timeout": 25
     },
     {
-      "key": "️爱看Bot弹幕版",
-      "name": "⛅️爱看Bot|弹幕",
+      "key": "️爱看Bot",
+      "name": "⛅️爱看Bot┃直连",
       "type": 3,
       "api": "csp_Ikanbot",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
@@ -316,9 +288,6 @@
       "api": "csp_Bt0",
       "searchable": 1,
       "changeable": 0,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 20
     },
     {
@@ -329,9 +298,6 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 25
     },
     {
@@ -363,7 +329,7 @@
     },
     {
       "key": "haiwaikan",
-      "name": "👌🏻海外看┃海外",
+      "name": "👌🏻海外看┃直连",
       "type": 1,
       "api": "https://haiwaikan.com/api.php/provide/vod",
       "searchable": 1,
@@ -406,7 +372,7 @@
     },
     {
       "key": "星星",
-      "name": "⭐️星星┃海外",
+      "name": "⭐️星星┃直连",
       "type": 3,
       "api": "csp_Star",
       "searchable": 1,
@@ -414,15 +380,12 @@
       "timeout": 10
     },
     {
-      "key": "泥巴弹幕版",
-      "name": "🛫泥巴┃弹幕",
+      "key": "泥巴",
+      "name": "🛫泥巴┃直连",
       "type": 3,
       "api": "csp_NiNi",
       "searchable": 1,
       "changeable": 1,
-      "ext": {
-        "danmu": true
-      },
       "timeout": 10
     },
     {
@@ -580,8 +543,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "token": "file://TV/ali_token.txt"
       },
       "timeout": 15
     },
@@ -594,8 +556,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": {
-        "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "token": "file://TV/ali_token.txt"
       },
       "timeout": 15
     },
@@ -608,8 +569,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": {
-        "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "token": "file://TV/ali_token.txt"
       },
       "timeout": 15
     },
@@ -622,8 +582,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": {
-        "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "token": "file://TV/ali_token.txt"
       },
       "timeout": 15
     },
@@ -637,7 +596,7 @@
       "changeable": 0,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"
       },
       "timeout": 15
     },
@@ -650,8 +609,7 @@
       "filterable": 0,
       "changeable": 0,
       "ext": {
-        "token": "file://TV/ali_token.txt",
-        "danmu": true
+        "token": "file://TV/ali_token.txt"
       },
       "timeout": 15
     },
@@ -664,8 +622,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -678,8 +635,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -692,8 +648,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -707,8 +662,7 @@
       "changeable": 0,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -722,8 +676,7 @@
       "changeable": 0,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 15
     },
@@ -737,8 +690,7 @@
       "changeable": 0,
       "ext": {
         "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "danmu": true
+        "cookie": "file://TV/quark_cookie.txt"
       },
       "timeout": 5
     }
@@ -753,6 +705,26 @@
       "name": "聚合0",
       "type": 3,
       "url": "Web"
+    },
+    {
+      "name": "-4K-",
+      "type": 1,
+      "url": "http://110.40.61.123:7777/api/?key=IxRXSU7o6P9PzlIxrW&url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "-二小-",
+      "type": 1,
+      "url": "http://43.136.176.188:91/api/?key=f99226916774bfa29c9af99b2c736fd9&url=",
+      "ext": {
+        "header": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        }
+      }
     },
     {
       "name": "-咸鱼-",
@@ -776,16 +748,6 @@
       }
     },
     {
-      "name": "-爱酷-",
-      "type": 0,
-      "url": "https://jx.zhanlangbu.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
       "name": "-云解析-",
       "type": 0,
       "url": "https://jx.yparse.com/index.php?url=",
@@ -799,16 +761,6 @@
       "name": "-777-",
       "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "-剖云-",
-      "type": 0,
-      "url": "https://www.kkvip2022.com/vip/jiexi1/?url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
@@ -886,54 +838,71 @@
   ],
   "lives": [
     {
-      "name": "live",
+      "name": "live-1",
       "type": 0,
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://gitee.com/okjack/okk/raw/master/li.txt",
       "playerType": 1,
-      "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "timeout": 10
+      "timeout": 10,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
     },
     {
-      "name": "iptv",
+      "name": "live-2",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://gitee.com/okjack/okk/raw/master/ip.txt",
+      "url": "./lib/live2.txt",
       "playerType": 1,
-      "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "timeout": 10
+      "timeout": 10,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
+    },
+    {
+      "name": "live-3",
+      "type": 0,
+      "url": "./lib/live3.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "timeout": 10,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
     },
     {
       "name": "fanmingming",
       "type": 0,
-      "url": "./lib/ipv6.m3u",
+      "url": "./lib/ipv6Plus.m3u",
       "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
       "timeout": 10
     },
     {
-      "name": "mitv",
+      "name": "gat",
       "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://gitee.com/okjack/okk/raw/master/mt.txt",
+      "url": "http://127.0.0.1:9978/proxy?do=live&url=https://gitee.com/okjack/okk/raw/master/gat.txt",
       "playerType": 1,
-      "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "timeout": 10
-    },
-    {
-      "name": "ddns",
-      "type": 0,
-      "url": "http://127.0.0.1:9978/proxy?do=live&url=http://mywlkj.ddns.net:754/tv.php",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "timeout": 10
+      "timeout": 10,
+      "catchup": {
+        "days": "7",
+        "type": "append",
+        "regex": "/PLTV/",
+        "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+      }
     }
   ],
   "ijk": [
@@ -1115,9 +1084,7 @@
         "uhibo.com",
         ".*boku.*",
         ".*nivod.*",
-        ".*ulivetv.*",
-        "wogg.link",
-        "wogg.xyz"
+        ".*ulivetv.*"
       ]
     },
     {
