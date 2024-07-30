@@ -6,30 +6,25 @@
     {
       "name": "live",
       "type": 0,
-      "url": "./lib/zhibo.txt",
+      "url": "./lib/tv.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
   ],
   "sites": [
     {
-      "key": "zztong",
-      "name": "神仙影视公众号：神仙APP",
+      "key": "gongzhong",
+      "name": "神仙 | 线路",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "csp_FengGo",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "【神仙影视】提醒您请勿相信影片中的广告，以免上当受骗。+简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
-        "线路标题": "[替换:索索线路>>公众号神仙APP]",
-        "分类url": "http://www.zztong.net/t/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#电视剧$lianxuju#综艺$zongyi#动漫$dongman"
-      }
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "./lib/s.jar"
     },
     {
       "key": "神仙影视",
-      "name": "影视 | 神仙自营",
+      "name": "神仙 | 自营",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -37,7 +32,7 @@
       "filterable": 1,
       "ext": {
         "分类url": "https://ys.sxtv.top/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#4K电影$36#邵氏电影$37"
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
       }
     },
     {
@@ -52,7 +47,7 @@
     },
     {
       "key": "玩偶",
-      "name": "玩偶 | 饭太硬接口",
+      "name": "玩偶 | 哥哥",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -76,7 +71,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://czzy.top/"
+      "ext": "https://www.czys.pro/"
     },
     {
       "key": "哔嘀",

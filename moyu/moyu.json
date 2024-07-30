@@ -17,7 +17,7 @@
       "key": "update",
       "name": "🎬️摸鱼┃电影┃预告",
       "type": 3,
-      "api": "csp_update",
+      "api": "csp_YGP",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
@@ -58,6 +58,21 @@
       "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=lives"
     },
     {
+      "key": "玩偶智能",
+      "name": "👽玩偶智能┃4K弹幕",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+    {
       "key": "doudouxie",
       "name": "👽️玩偶哥哥┃4K弹幕",
       "type": 3,
@@ -91,8 +106,40 @@
       "timeout": 25
     },
     {
+      "key": "蜡笔弹幕",
+      "name": "🖍︎蜡笔资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://duopan.fun",
+        "danmu": true
+      }
+    },
+    {
+      "key": "六趣弹幕",
+      "name": "🍱六趣阿里┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://cms.715d.com",
+        "danmu": true
+      }
+    },
+    {
       "key": "玩偶表哥",
-      "name": "🤣玩偶表哥┃4K弹幕",
+      "name": "🧃玩偶表哥┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
@@ -109,7 +156,7 @@
     },
     {
       "key": "多多弹幕",
-      "name": "😁多多弹幕┃4K弹幕",
+      "name": "🍥多多弹幕┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
@@ -126,7 +173,7 @@
     },
     {
       "key": "团长弹幕",
-      "name": "🍕夸克团长┃4K弹幕",
+      "name": "🏳️夸克团长┃4K弹幕",
       "type": 3,
       "api": "csp_Tzfile",
       "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
@@ -141,19 +188,25 @@
       "timeout": 25
     },
     {
-      "key": "六趣",
-      "name": "🍱六趣阿里┃4K纯净",
+      "key": "夸克至臻弹幕",
+      "name": "🏆️夸克至臻┃4K弹幕",
       "type": 3,
-      "api": "csp_XYQHikerAL",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
-      "searchable": 1,
+      "api": "csp_Wobg",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
-      "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=六趣"
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://mihdr.top",
+        "danmu": true
+      }
     },
     {
       "key": "多多玩偶",
-      "name": "😊玩偶多多┃4K纯净",
+      "name": "🧸玩偶多多┃4K纯净",
       "type": 3,
       "api": "csp_XYQHikerAL",
       "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
@@ -184,6 +237,18 @@
       "timeout": 20
     },
     {
+      "key": "厂长",
+      "name": "🏭️厂长┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_NewCz",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czys.pro/"
+    },
+    {
       "key": "厂长弹幕版",
       "name": "🏭️厂长┃蓝光┃弹幕",
       "type": 3,
@@ -196,18 +261,6 @@
         "danmu": true
       },
       "timeout": 25
-    },
-    {
-      "key": "厂长",
-      "name": "🏭️厂长┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_NewCz",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://czzy.top/"
     },
     {
       "key": "天天弹幕版",
@@ -249,6 +302,54 @@
       "changeable": 1
     },
     {
+      "key": "剧兔",
+      "name": "🐇剧兔┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "https://www.zjtu.one/api.php/app/"
+    },
+    {
+      "key": "河狸",
+      "name": "🦛河狸┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "https://www.heli888.cc/api.php/app/"
+    },
+    {
+      "key": "小马",
+      "name": "🐎小马┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "https://mas.szyyds.cn/api.php/app/"
+    },
+    {
+      "key": "影馆",
+      "name": "🐔影馆┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "https://4kdyg.top/api.php/v1.vod"
+    },
+    {
+      "key": "银河",
+      "name": "🌌小马┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "http://134.175.219.46/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "思古",
+      "name": "🥮思古┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "ext": "http://mf.songshu.cyou/api.php/app/"
+    },
+    {
       "key": "胖虎影视",
       "name": "🐯胖虎┃蓝光┃在线",
       "type": 3,
@@ -267,6 +368,30 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=剧圈"
+    },
+    {
+      "key": "河马",
+      "name": "🦓河马┃蓝光┃在线",
+      "type": 3,
+      "api": "csp_Oka",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "ext": "{\"cateUrl\":\"https://www.hemahd.com/tags/{cateId}--------{page}---.html\", \"cate\":\"电影$1#电视剧$2#动漫$3#综艺$4\", \"search\":\"/sou/{search}-------------.html\"}"
+    },
+    {
+      "key": "桃子",
+      "name": "🍑桃子┃蓝光┃在线",
+      "type": 3,
+      "api": "csp_Oka",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
     },
     {
       "key": "荐片纯净",
@@ -306,6 +431,16 @@
       "timeout": 10
     },
     {
+      "key": "酷看",
+      "name": "😎酷看┃蓝光┃纯净",
+      "type": 3,
+      "api": "csp_Kkys",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "酷看弹幕版",
       "name": "😎酷看┃蓝光┃弹幕",
       "type": 3,
@@ -318,16 +453,6 @@
         "danmu": true
       },
       "timeout": 20
-    },
-    {
-      "key": "酷看",
-      "name": "😎酷看┃蓝光┃纯净",
-      "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     },
     {
       "key": "大师兄",
@@ -364,14 +489,16 @@
     },
     {
       "key": "Lib",
-      "name": "🌟立播┃蓝光┃不卡",
+      "name": "🌟立播┃蓝光┃秒播",
       "type": 3,
       "api": "csp_Libvio",
-      "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.libvio.pw/"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "csp_xBPQ_wencai",
@@ -405,11 +532,65 @@
       "changeable": 1
     },
     {
-      "key": "春秋蝉",
+      "key": "原创",
       "name": "🍁春秋┃蓝光┃纯净",
       "type": 3,
-      "api": "csp_chunqiu",
+      "api": "csp_YCyz",
       "timeout": 15,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "专线",
+      "name": "🚝专线┃蓝光┃秒播",
+      "type": 3,
+      "api": "csp_Zx4k",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "小点",
+      "name": "💥小点┃蓝光┃多线",
+      "type": 3,
+      "api": "csp_Appxdys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "文采",
+      "name": "💮文采┃蓝光┃秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "蛋蛋",
+      "name": "🍓蛋蛋┃蓝光┃多线",
+      "type": 3,
+      "api": "csp_Cddys",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "可可",
+      "name": "👻可可┃蓝光┃多线",
+      "type": 3,
+      "api": "csp_Kekys",
+      "timeout": 15,
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -491,7 +672,7 @@
     },
     {
       "key": "zxzj",
-      "name": "🔗在线┃蓝光┃外剧",
+      "name": "🍊在线┃蓝光┃外剧",
       "type": 3,
       "api": "csp_Zxzj",
       "timeout": 15,
@@ -544,7 +725,7 @@
     },
     {
       "key": "Auete",
-      "name": "▶️奥特┃蓝光┃直连",
+      "name": "🏝奥特┃蓝光┃直连",
       "type": 3,
       "api": "csp_Auete",
       "timeout": 15,
@@ -796,8 +977,17 @@
       "ext": "./lib/喵次元.js"
     },
     {
+      "key": "短剧",
+      "name": "🌈上头┃短剧┃热推",
+      "type": 3,
+      "api": "csp_Djtt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "无忧短剧",
-      "name": "🌈无忧┃短剧┃热推",
+      "name": "😂无忧┃短剧┃热推",
       "type": 3,
       "api": "csp_Duanj",
       "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
@@ -822,6 +1012,16 @@
         "ratio": 1.433
       },
       "timeout": 10
+    },
+    {
+      "key": "csp_Yj1211",
+      "name": "📽️网红┃直播┃蓝光",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "playerType": "1",
+      "searchable": 0,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "csp_XPath_鹅直播",
@@ -892,6 +1092,20 @@
         "ratio": 1.433
       },
       "timeout": 10
+    },
+    {
+      "key": "MTV",
+      "name": "🎧明星┃MV",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=mtv"
     },
     {
       "key": "Bili",
@@ -1048,6 +1262,42 @@
       }
     },
     {
+      "key": "我的阿里",
+      "name": "🐱我的┃阿里┃资源",
+      "type": 3,
+      "api": "csp_MyAli",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "token": "file://TV/ali_token.txt"
+      },
+      "style": {
+        "type": "list"
+      },
+      "timeout": 30
+    },
+    {
+      "key": "我的夸克",
+      "name": "🗽我的┃夸克┃资源",
+      "type": 3,
+      "api": "csp_MyQuark",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "indexs": 0,
+      "ext": {
+        "cookie": "file://TV/quark_cookie.txt"
+      },
+      "style": {
+        "type": "list"
+      },
+      "timeout": 30
+    },
+    {
       "key": "易搜",
       "name": "😹易搜┃弹幕┃搜索",
       "type": 3,
@@ -1070,7 +1320,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/token.txt+4k|auto|fhd"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "盘搜",
@@ -1095,7 +1348,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/token.txt+4k|auto|fhd"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "Up云搜",
@@ -1120,7 +1376,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/token.txt+4k|auto|fhd"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "盘Se",
@@ -1145,7 +1404,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/token.txt+4k|auto|fhd"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "影搜弹幕",
@@ -1183,9 +1445,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
-        "pan": "quark",
-        "quarkCookie": "TV/quark_cookie.txt",
-        "from": "4k|auto|fhd"
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
@@ -1198,8 +1459,8 @@
       "changeable": 0,
       "ext": {
         "pan": "quark",
-        "quarkCookie": "TV/quark_cookie.txt",
-        "from": "4k|auto|fhd"
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
       }
     },
     {
