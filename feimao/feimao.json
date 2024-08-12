@@ -1,11 +1,11 @@
 {
-  "spider": "./PandaQ240727.jar;md5;df2f10384aab33229e15dbfb77f02edf",
+  "spider": "./PandaQ240805.jar;md5;7f69a60f49cba319a30896e6681c798a",
   "wallpaper": "http://like.xn--z7x900a.com/ppic/feimao.php",
   "logo": "https://like.xn--z7x900a.com/panda/0262.png",
   "sites": [
     {
       "key": "drpy_js_豆瓣",
-      "name": "🐼┃豆瓣┃肥猫线路",
+      "name": "🐼┃公众号┃肥猫宝贝",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -32,7 +32,12 @@
       "api": "csp_Duopan",
       "playerType": 2,
       "filterable": 1,
-      "ext": "https://duopan.fun/"
+      "ext": {
+        "site_urls": [
+          "https://duopan.fun",
+          "http://labipan.com"
+        ]
+      }
     },
     {
       "key": "nangua",
@@ -143,7 +148,7 @@
       "api": "csp_Netfixtv",
       "playerType": 2,
       "filterable": 1,
-      "ext": ""
+      "ext": "http://mpanso.com"
     },
     {
       "key": "csp_Panda_玩偶哥哥",

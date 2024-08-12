@@ -1,5 +1,5 @@
 {
-  "spider": "./fty.jar;md5;71d846866f2ceb9666ba114e5963983f",
+  "spider": "./fty.jar;md5;67d1780ee22d022e0551fb8de5db17b6",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -68,6 +68,25 @@
       }
     },
     {
+      "key": "文采",
+      "name": "💮文采┃秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "煤球",
+      "name": "🍓煤球┃多线",
+      "type": 3,
+      "api": "csp_Appmq",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "专线",
       "name": "🚝专线┃秒播",
       "type": 3,
@@ -85,7 +104,6 @@
       "api": "csp_Appxdys",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0
     },
     {
@@ -119,27 +137,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.czys.pro/"
-    },
-    {
-      "key": "文采",
-      "name": "💮文采┃秒播",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "蛋蛋",
-      "name": "🍓蛋蛋┃多线",
-      "type": 3,
-      "api": "csp_Cddys",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     },
     {
       "key": "zxzj",
@@ -372,16 +369,6 @@
       "changeable": 0
     },
     {
-      "key": "聚短视频js",
-      "name": "📽️聚短┃视频",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/短视频.js",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "有声小说js",
       "name": "🎧有声┃小说",
       "type": 3,
@@ -410,7 +397,7 @@
     },
     {
       "key": "米搜",
-      "name": "🦋米搜┃搜索",
+      "name": "🦋米搜┃夸父",
       "type": 3,
       "api": "csp_MIPanSo",
       "searchable": 1,
@@ -422,8 +409,21 @@
       }
     },
     {
+      "key": "盘他",
+      "name": "🍄盘他┃U夸",
+      "type": 3,
+      "api": "csp_PanTa",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
       "key": "夸搜",
-      "name": "🐌夸搜┃搜索",
+      "name": "🐟夸搜┃夸父",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -437,7 +437,7 @@
     },
     {
       "key": "YiSo",
-      "name": "😹易搜┃搜索",
+      "name": "😹易搜┃阿狸",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -450,7 +450,7 @@
     },
     {
       "key": "PanSou",
-      "name": "🦊盘搜┃搜索",
+      "name": "🦊盘搜┃阿狸",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -462,21 +462,8 @@
       }
     },
     {
-      "key": "UpYun",
-      "name": "😻Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
       "key": "PanSearch",
-      "name": "🙀盘Se┃搜索",
+      "name": "🙀盘Se┃阿狸",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -609,10 +596,10 @@
       "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
-      "name": "XIUTAN",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "name": "TV",
       "type": 0,
-      "url": "https://xhdwc.tk/xiutan.m3u"
+      "url": "./lib/tv.m3u",
+      "playerType": 1
     },
     {
       "name": "IPV6",

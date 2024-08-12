@@ -3,21 +3,11 @@
   "wallpaper": "https://vi2.xiu123.cn/live/2023/08/15/17/1001v1692091979226192412.png",
   "sites": [
     {
-      "key": "豆瓣",
-      "name": "豆瓣榜单🧁东辰",
-      "type": 3,
-      "api": "csp_DouDou",
-      "jar": "./lib/fan.txt",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
       "key": "土豆",
-      "name": "土豆🥔臻享4K",
+      "name": "土豆🥔臻享4K┃加qq群154817803防失联",
       "type": 3,
       "api": "csp_Wextudou",
-      "jar": "./lib/dongchen0708.jar",
+      "jar": "./lib/dongchen0615.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -27,7 +17,7 @@
       "name": "土豆臻享4K配置中心",
       "type": 3,
       "api": "csp_Wexconfig",
-      "jar": "./lib/dongchen0708.jar",
+      "jar": "./lib/dongchen0615.jar",
       "changeable": 0,
       "style": {
         "type": "rect",
@@ -1239,7 +1229,7 @@
       "name": "夸克🛹影搜",
       "type": 3,
       "api": "csp_Wexyingso",
-      "jar": "./lib/dongchen0708.jar",
+      "jar": "./lib/dongchen0615.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1

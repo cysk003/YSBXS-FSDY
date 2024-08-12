@@ -1,12 +1,17 @@
 {
-  "spider": "./custom_spider.jar?ref=master;md5;71d846866f2ceb9666ba114e5963983f",
+  "spider": "./custom_spider.jar?ref=master;md5;67d1780ee22d022e0551fb8de5db17b6",
   "wallpaper": "",
   "logo": "",
   "lives": [
     {
+      "name": "电视┃直播",
+      "type": 0,
+      "url": "./lib/itvlist.m3u"
+    },
+    {
       "name": "电视┃IPV6",
       "type": 0,
-      "url": "./lib/ycl_iptv.m3u"
+      "url": "./lib/ipv6.m3u"
     }
   ],
   "sites": [
@@ -15,6 +20,13 @@
       "name": "豆瓣┃评分",
       "type": 3,
       "api": "csp_DouDou"
+    },
+    {
+      "key": "央视大全",
+      "name": "央视┃大全",
+      "type": 3,
+      "api": "./lib/drpy2.min.js?ref=JavaScript",
+      "ext": "./lib/央视大全[央].js?ref=JavaScript"
     },
     {
       "key": "Djtt",
@@ -33,6 +45,18 @@
       "name": "南瓜┃App",
       "type": 3,
       "api": "csp_NanGua"
+    },
+    {
+      "key": "Appmq",
+      "name": "麻雀┃多线",
+      "type": 3,
+      "api": "csp_Appmq"
+    },
+    {
+      "key": "Xdys",
+      "name": "兄弟┃多线",
+      "type": 3,
+      "api": "csp_Appxdys"
     },
     {
       "key": "LiteApple",
@@ -66,12 +90,6 @@
       "api": "csp_Jpys"
     },
     {
-      "key": "Cddys",
-      "name": "臭蛋┃多线",
-      "type": 3,
-      "api": "csp_Cddys"
-    },
-    {
       "key": "DiDuan",
       "name": "低端┃外剧",
       "type": 3,
@@ -91,12 +109,6 @@
       "api": "csp_Kekys"
     },
     {
-      "key": "Xdys",
-      "name": "兄弟┃多线",
-      "type": 3,
-      "api": "csp_Appxdys"
-    },
-    {
       "key": "天天",
       "name": "天天┃App",
       "type": 3,
@@ -109,12 +121,6 @@
       "type": 3,
       "api": "csp_AppTT",
       "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
-      "key": "Bttoo",
-      "name": "比特┃秒播",
-      "type": 3,
-      "api": "csp_Bttwoo"
     },
     {
       "key": "Auete",
@@ -155,7 +161,7 @@
       "ext": {
         "Cloud-drive": "TVRule/Cloud-drive.txt",
         "from": "4k|auto",
-        "siteUrl": "https://www.wogg.link/",
+        "siteUrl": "https://wogg.xxooo.cf/",
         "danMu": "关"
       }
     },
@@ -210,8 +216,18 @@
       }
     },
     {
+      "key": "盘他",
+      "name": "盘他┃U夸",
+      "type": 3,
+      "api": "csp_PanTa",
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
       "key": "QuarkPanso",
-      "name": "夸克┃搜索",
+      "name": "夸搜┃夸父",
       "type": 3,
       "api": "csp_PanSearch",
       "ext": {
@@ -241,16 +257,6 @@
       }
     },
     {
-      "key": "UpYun",
-      "name": "Up云┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "ext": {
-        "Cloud-drive": "TVRule/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
       "key": "PanSearch",
       "name": "盘Se┃搜索",
       "type": 3,
@@ -273,6 +279,16 @@
     }
   ],
   "parses": [
+    {
+      "name": "4K",
+      "type": 1,
+      "url": "http://jxla.cc.33love.cn/api/?key=IjPlbF6jTmgsehxEFF&url="
+    },
+    {
+      "name": "jx",
+      "type": 1,
+      "url": "http://159.75.157.29:75/yylx/?uid=66523&key=5433236&url="
+    },
     {
       "name": "01",
       "type": 1,
