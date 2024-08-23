@@ -34,6 +34,14 @@
       "changeable": 1
     },
     {
+      "key": "采集集合",
+      "name": "🍀采集集合",
+      "type": 1,
+      "api": "http://zhangqun66.serv00.net/cjjh.php",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "hipy_js_直播转点播[合]",
       "name": "直播转点播[合](drpy_t3)",
       "type": 3,
@@ -56,27 +64,6 @@
       "ext": "http://47.108.190.141/hipy/drpy_js/采集之王[合].js?type=url&params=http://47.108.190.141/hipy/json/采集静态.json"
     },
     {
-      "key": "hipy_js_分享短视频",
-      "name": "分享短视频(drpy_t3)",
-      "type": 3,
-      "api": "http://47.108.190.141/hipy/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://47.108.190.141/hipy/drpy_js/分享短视频.js"
-    },
-    {
-      "key": "hipy_js_星芽短剧app",
-      "name": "星芽短剧app(drpy_t3)",
-      "type": 3,
-      "api": "http://47.108.190.141/hipy/drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": "http://47.108.190.141/hipy/drpy_js/星芽短剧[优].js"
-    },
-    {
       "key": "csp_yydflive-2",
       "name": "💞电视电台",
       "type": 3,
@@ -86,6 +73,14 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "./lib/live.json"
+    },
+    {
+      "key": "实验直播4",
+      "name": "💞实验直播T4",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net/zh/224.php",
+      "searchable": 0,
+      "changeable": 0
     },
     {
       "key": "酷狗",
@@ -983,10 +978,13 @@
   ],
   "lives": [
     {
-      "name": "默认",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+      "name": "live",
       "type": 0,
-      "url": "https://xhdwc.tk/xiutan.m3u"
+      "url": "./lib/live3.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "春盈",

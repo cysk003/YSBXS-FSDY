@@ -58,6 +58,29 @@
       "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=lives"
     },
     {
+      "key": "测压已通过",
+      "name": "🌟摸鱼测试┃4K解析",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://122.228.85.203:3366/api.php/app/"
+    },
+    {
+      "key": "云jx",
+      "name": "🐧腾云驾雾┃4K测试",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
+      "playerType": "2",
+      "api": "csp_XBPQ",
+      "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=腾云驾雾"
+    },
+    {
       "key": "玩偶智能",
       "name": "👽玩偶智能┃4K弹幕",
       "type": 3,
@@ -1506,7 +1529,7 @@
       "url": "Web"
     },
     {
-      "name": "摸鱼测试",
+      "name": "摸鱼测压",
       "type": 1,
       "url": "http://vipjx.xn--v4q818bf34b.com/moyu64.php?url=",
       "ext": {

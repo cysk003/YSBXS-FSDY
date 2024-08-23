@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar?ref=master;md5;67d1780ee22d022e0551fb8de5db17b6",
+  "spider": "./custom_spider.jar;md5;5d760b50584f03b3f71c8a6d1c17aa8e",
   "wallpaper": "",
   "logo": "",
   "lives": [
@@ -26,13 +26,27 @@
       "name": "央视┃大全",
       "type": 3,
       "api": "./lib/drpy2.min.js?ref=JavaScript",
-      "ext": "./lib/央视大全[央].js?ref=JavaScript"
+      "ext": "./lib/央视大全.js?ref=JavaScript"
     },
     {
       "key": "Djtt",
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djtt"
+    },
+    {
+      "key": "NewCz",
+      "name": "厂长┃资源",
+      "type": 3,
+      "api": "csp_NewCz",
+      "ext": "https://www.czys.pro/"
+    },
+    {
+      "key": "Appxd",
+      "name": "兄弟┃多线",
+      "type": 3,
+      "api": "csp_Appxd",
+      "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
     },
     {
       "key": "Kkys",
@@ -53,35 +67,16 @@
       "api": "csp_Appmq"
     },
     {
-      "key": "Xdys",
-      "name": "兄弟┃多线",
-      "type": 3,
-      "api": "csp_Appxdys"
-    },
-    {
       "key": "LiteApple",
       "name": "苹果┃复活",
       "type": 3,
       "api": "csp_LiteApple"
     },
     {
-      "key": "Zx4k",
-      "name": "专线┃秒播",
-      "type": 3,
-      "api": "csp_Zx4k"
-    },
-    {
       "key": "YCyz",
       "name": "原创┃无广",
       "type": 3,
       "api": "csp_YCyz"
-    },
-    {
-      "key": "NewCz",
-      "name": "厂长┃资源",
-      "type": 3,
-      "api": "csp_NewCz",
-      "ext": "https://www.czys.pro/"
     },
     {
       "key": "Jpys",
@@ -101,6 +96,13 @@
       "type": 3,
       "api": "csp_Zxzj",
       "ext": "https://www.zxzjhd.com/"
+    },
+    {
+      "key": "农民影视",
+      "name": "农民┃嗅探",
+      "type": 3,
+      "api": "./lib/drpy2.min.js?ref=JavaScript",
+      "ext": "./lib/农民影视.js?ref=JavaScript"
     },
     {
       "key": "Kekys",
@@ -141,17 +143,30 @@
     },
     {
       "key": "SixV",
-      "name": "新6V┃磁力",
+      "name": "SixV┃磁力",
       "type": 3,
       "api": "csp_SixV",
       "ext": "http://www.xb6v.com/"
     },
     {
+      "key": "heihu",
+      "name": "黑狐┃T4",
+      "type": 4,
+      "api": "https://catbox.n13.club/t9/heihu.php"
+    },
+    {
       "key": "nuiyue",
-      "name": "纽约┃采集",
+      "name": "纽约┃XPath",
       "type": 3,
       "api": "csp_XPathFilter",
       "ext": "./lib/nuiyue.json?ref=master"
+    },
+    {
+      "key": "追风",
+      "name": "追风┃采集",
+      "type": 1,
+      "api": "http://www.zfsp.cc/api.php/provide/vod",
+      "timeout": 10
     },
     {
       "key": "WoGG",
@@ -206,6 +221,17 @@
       }
     },
     {
+      "key": "MTV",
+      "name": "明星┃MV",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "ext": "./lib/MTV.json"
+    },
+    {
       "key": "MIPanSo",
       "name": "米搜┃搜索",
       "type": 3,
@@ -216,10 +242,10 @@
       }
     },
     {
-      "key": "盘他",
-      "name": "盘他┃U夸",
+      "key": "KkSs",
+      "name": "抠抠┃搜搜",
       "type": 3,
-      "api": "csp_PanTa",
+      "api": "csp_KkSs",
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto"
@@ -280,29 +306,24 @@
   ],
   "parses": [
     {
-      "name": "4K",
-      "type": 1,
-      "url": "http://jxla.cc.33love.cn/api/?key=IjPlbF6jTmgsehxEFF&url="
-    },
-    {
-      "name": "jx",
+      "name": "leospring",
       "type": 1,
       "url": "http://159.75.157.29:75/yylx/?uid=66523&key=5433236&url="
     },
     {
-      "name": "01",
+      "name": "小米",
       "type": 1,
-      "url": "http://122.228.84.103:7777/api/?key=J3RDcpC4cTTSrpyEeD&url="
+      "url": "https://cdn.suxun.site/api/?key=7QeqS18ZCrJgj0BSOn&url="
     },
     {
-      "name": "02",
+      "name": "无敌",
       "type": 1,
-      "url": "http://122.228.84.103:7777/api/?key=4Dk5tdayvY6NZufEMG&url="
+      "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url="
     },
     {
-      "name": "666",
+      "name": "腾4K",
       "type": 1,
-      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url="
+      "url": "http://www.mpanso.com/woaini.php?url="
     },
     {
       "name": "麒麟",
@@ -339,24 +360,6 @@
         ".*boku.*",
         ".*nivod.*",
         ".*ulivetv.*"
-      ]
-    },
-    {
-      "name": "火山嗅探",
-      "hosts": [
-        "huoshan.com"
-      ],
-      "regex": [
-        "item_id="
-      ]
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": [
-        "douyin.com"
-      ],
-      "regex": [
-        "is_play_url="
       ]
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "spider": "./okjpg.txt;md5;8c662ada81ea5f9c8f05eb3de7f0bcb8",
+  "spider": "./okjpg.txt;md5;aaa8eb83291083d1d117ed1e65bba497",
   "wallpaper": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314187703/w1.jpg",
   "logo": "./lib/ol.txt",
   "sites": [
@@ -165,17 +165,6 @@
       "filterable": 1,
       "timeout": 10,
       "ext": "{\"cateUrl\":\"https://www.taozi007.com/show/{cateId}--------{page}---.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$5\",\"playFrom\":\".module-tab-items .module-tab-item span\",\"playUrl\":\".module-list .module-play-list\", \"search\":\"/search/{search}-------------.html\", \"webview\":1}"
-    },
-    {
-      "key": "可可",
-      "name": "😝可可┃在线",
-      "type": 3,
-      "api": "csp_Keke",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10,
-      "ext": "{\"cateUrl\":\"https://www.keke1.app/show/{cateId}-----3-{page}.html\", \"cate\":\"电影$1#剧集$2#动漫$3#综艺$4#短剧$6\",\"playFrom\":\".swiper-slide .source-item span\",\"playUrl\":\".episode-box-main .episode-list\", \"search\":\"/search?k={search}\"}"
     },
     {
       "key": "荐片",
