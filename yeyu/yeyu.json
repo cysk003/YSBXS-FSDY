@@ -1,5 +1,5 @@
 {
-  "spider": "./yydf.jar;md5;33097098fff5edff8cf278af2245ed6d",
+  "spider": "./pg.jar;md5;0f7466ea4508d180115e247bde99ac5b",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "logo": "http://php.540734621.xyz/logo/logo.php",
   "sites": [
@@ -93,24 +93,6 @@
       "style": {
         "type": "list"
       }
-    },
-    {
-      "key": "Iktv",
-      "name": "🎙KTV",
-      "type": 3,
-      "api": "csp_WexIktv",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e"
-    },
-    {
-      "key": "Yinyuetai",
-      "name": "🛰音悦台",
-      "type": 3,
-      "api": "csp_WexYinyuetai",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "./lib/wex.txt;md5;1a93958bfdeb969dbdfd3478e7f8b61e"
     },
     {
       "key": "ibaopian",
@@ -303,7 +285,7 @@
       "name": "👽玩偶哥哥·饭",
       "type": 3,
       "api": "csp_WoGG",
-      "jar": "./lib/fan.txt;md5;c1f397cad87b1e7ba161d93d7e0fbf85",
+      "jar": "./lib/fan.txt;md5;88dcad7cb6b3e3565179e4d4f0ef8e1c",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -318,9 +300,9 @@
       "key": "TGYunPan",
       "name": "🍏TG搜索|网盘搜索",
       "type": 3,
-      "api": "csp_TGYunPan",
+      "api": "csp_TGYunPanLocal",
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$http://144.126.217.226:8000/$$$wpzyhj$$$noproxy$$$1"
+      "ext": "./lib/tokenm.json$$$https://t.me/$$$hao115,Aliyundrive_Share_Channel,kuakeyun$$$proxy$$$1"
     },
     {
       "key": "米搜",
@@ -351,7 +333,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 60,
-      "ext": "./lib/tokenm.json$$$noproxy$$$1"
+      "ext": "./lib/tokenm.json$$$https://www.hdhive.online/$$$noproxy$$$1"
     },
     {
       "key": "校长影视",

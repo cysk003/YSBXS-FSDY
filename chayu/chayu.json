@@ -1,7 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;5d760b50584f03b3f71c8a6d1c17aa8e",
-  "wallpaper": "",
-  "logo": "",
+  "spider": "./custom_spider.jar;md5;bad6f48fc2e797ce45de2a0b06adf6bc",
   "lives": [
     {
       "name": "电视┃直播",
@@ -25,8 +23,26 @@
       "key": "央视大全",
       "name": "央视┃大全",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=JavaScript",
-      "ext": "./lib/央视大全.js?ref=JavaScript"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/大全央视.js"
+    },
+    {
+      "key": "一曲肝肠断",
+      "name": "戏曲┃点播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/一曲肝肠断.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "素白白",
+      "name": "素白┃无广",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/素白白.js"
     },
     {
       "key": "Djtt",
@@ -59,6 +75,27 @@
       "name": "南瓜┃App",
       "type": 3,
       "api": "csp_NanGua"
+    },
+    {
+      "key": "天天",
+      "name": "天天┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+    },
+    {
+      "key": "追剧",
+      "name": "追剧┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+    },
+    {
+      "key": "热播",
+      "name": "热播┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
       "key": "Appmq",
@@ -98,35 +135,14 @@
       "ext": "https://www.zxzjhd.com/"
     },
     {
-      "key": "农民影视",
-      "name": "农民┃嗅探",
-      "type": 3,
-      "api": "./lib/drpy2.min.js?ref=JavaScript",
-      "ext": "./lib/农民影视.js?ref=JavaScript"
-    },
-    {
       "key": "Kekys",
       "name": "可可┃多线",
       "type": 3,
       "api": "csp_Kekys"
     },
     {
-      "key": "天天",
-      "name": "天天┃App",
-      "type": 3,
-      "api": "csp_AppTT",
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
-    },
-    {
-      "key": "热播",
-      "name": "热播┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
       "key": "Auete",
-      "name": "奥特┃直连",
+      "name": "奥特┃无广",
       "type": 3,
       "api": "csp_Auete",
       "ext": "https://auete.pro/"
@@ -147,26 +163,6 @@
       "type": 3,
       "api": "csp_SixV",
       "ext": "http://www.xb6v.com/"
-    },
-    {
-      "key": "heihu",
-      "name": "黑狐┃T4",
-      "type": 4,
-      "api": "https://catbox.n13.club/t9/heihu.php"
-    },
-    {
-      "key": "nuiyue",
-      "name": "纽约┃XPath",
-      "type": 3,
-      "api": "csp_XPathFilter",
-      "ext": "./lib/nuiyue.json?ref=master"
-    },
-    {
-      "key": "追风",
-      "name": "追风┃采集",
-      "type": 1,
-      "api": "http://www.zfsp.cc/api.php/provide/vod",
-      "timeout": 10
     },
     {
       "key": "WoGG",
@@ -219,17 +215,6 @@
         "type": "rect",
         "ratio": 3.8
       }
-    },
-    {
-      "key": "MTV",
-      "name": "明星┃MV",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/MTV.json"
     },
     {
       "key": "MIPanSo",
@@ -308,7 +293,12 @@
     {
       "name": "leospring",
       "type": 1,
-      "url": "http://159.75.157.29:75/yylx/?uid=66523&key=5433236&url="
+      "url": "http://115.231.220.36:8801/jx/tvbox/zy2.php?url="
+    },
+    {
+      "name": "腾4K",
+      "type": 1,
+      "url": "http://www.mpanso.com/woaini.php?url="
     },
     {
       "name": "小米",
@@ -321,9 +311,17 @@
       "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url="
     },
     {
-      "name": "腾4K",
+      "name": "无限",
       "type": 1,
-      "url": "http://www.mpanso.com/woaini.php?url="
+      "url": "http://39.104.230.177:1122/lxjx/mylr.php?url="
+    },
+    {
+      "name": "4K",
+      "type": 1,
+      "url": "http://198.44.173.91:1234/cnm/json.php?url=",
+      "header": {
+        "User-Agent": "com.github.tvbox.osc.base.App/3.4.8 (Linux;Android 12) ExoPlayerLib/2.14.2"
+      }
     },
     {
       "name": "麒麟",
@@ -362,53 +360,5 @@
         ".*ulivetv.*"
       ]
     }
-  ],
-  "doh": [
-    {
-      "name": "Google",
-      "url": "https://dns.google/dns-query",
-      "ips": [
-        "8.8.4.4",
-        "8.8.8.8"
-      ]
-    },
-    {
-      "name": "Cloudflare",
-      "url": "https://cloudflare-dns.com/dns-query",
-      "ips": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ]
-    },
-    {
-      "name": "AdGuard",
-      "url": "https://dns.adguard.com/dns-query",
-      "ips": [
-        "94.140.14.140",
-        "94.140.14.141"
-      ]
-    },
-    {
-      "name": "DNSWatch",
-      "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [
-        "84.200.69.80",
-        "84.200.70.40"
-      ]
-    },
-    {
-      "name": "Quad9",
-      "url": "https://dns.quad9.net/dns-quer",
-      "ips": [
-        "9.9.9.9",
-        "149.112.112.112"
-      ]
-    }
-  ],
-  "ads": [
-    "static-mozai.4gtv.tv",
-    "s3t3d2y8.afcdn.net"
   ]
 }

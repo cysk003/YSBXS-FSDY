@@ -1,11 +1,11 @@
 {
-  "spider": "./okjpg.txt;md5;aaa8eb83291083d1d117ed1e65bba497",
+  "spider": "./okjpg.txt;md5;cbb824a6761aa150054da16f244e6b92",
   "wallpaper": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314187703/w1.jpg",
   "logo": "./lib/ol.txt",
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🤓QQ频道┃OK杰克",
+      "name": "🤓公众号┃OK猫开发",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,

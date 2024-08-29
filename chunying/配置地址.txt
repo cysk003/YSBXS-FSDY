@@ -1,1 +1,0 @@
-clan://localhost/tvbox/chunying/chunying.json

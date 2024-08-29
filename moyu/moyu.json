@@ -23,17 +23,6 @@
       "changeable": 0
     },
     {
-      "key": "登录",
-      "name": "🌎云盘┃登录┃设置",
-      "type": 3,
-      "api": "csp_AliYunPan",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "http://127.0.0.1:9978/file/TVBox/token.txt"
-    },
-    {
       "key": "弹幕配置",
       "name": "🚀弹幕┃高级┃设置",
       "type": 3,
@@ -58,27 +47,55 @@
       "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=lives"
     },
     {
-      "key": "测压已通过",
-      "name": "🌟摸鱼测试┃4K解析",
+      "key": "测压5",
+      "name": "🌟九州追觅┃追觅解析",
       "playerType": 1,
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "http://122.228.85.203:3366/api.php/app/"
+      "ext": "http://cms-my.zhuimi.top/api.php/app/"
     },
     {
-      "key": "云jx",
-      "name": "🐧腾云驾雾┃4K测试",
+      "key": "测压3",
+      "name": "🌟离歌乱雁┃追觅解析",
+      "playerType": 1,
       "type": 3,
+      "api": "csp_AppYsV2",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
-      "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
-      "playerType": "2",
-      "api": "csp_XBPQ",
-      "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=腾云驾雾"
+      "filterable": 1,
+      "ext": "http://ly4k.llys.online/api.php/app/"
+    },
+    {
+      "key": "测压1",
+      "name": "🌟千秋槿凉┃追觅解析",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://cms.kkkw.tv/api.php/app/"
+    },
+    {
+      "key": "测压2",
+      "name": "🌟墨城烟柳┃追觅解析",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://llys.llys.online/api.php/app/"
+    },
+    {
+      "key": "测压4",
+      "name": "🌟青衫入雨┃追觅解析",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/mangguo.js"
     },
     {
       "key": "玩偶智能",
@@ -1529,9 +1546,9 @@
       "url": "Web"
     },
     {
-      "name": "摸鱼测压",
+      "name": "zhuimi",
       "type": 1,
-      "url": "http://vipjx.xn--v4q818bf34b.com/moyu64.php?url=",
+      "url": "http://zhuimi996.xn--v4q818bf34b.top/zhuimi.php?url=",
       "ext": {
         "flag": [
           "qq",
@@ -1742,7 +1759,7 @@
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     },
     {
       "name": "IPV6",
@@ -1751,7 +1768,7 @@
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://live.fanmingming.com/tv/{name}.png"
     }
   ]
 }

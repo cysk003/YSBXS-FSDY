@@ -12,18 +12,42 @@
       "ext": "./js/douban.js"
     },
     {
-      "key": "玩偶 | 多多",
-      "name": "玩偶 | 多多",
+      "key": "ConfigCenter",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },	
+    {
+      "key": "玩偶 |多多",
+      "name": "多多影音",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://tv.yydsys.top",
+        "siteUrl": "https://tv.yydsys.top/",
         "filter": "./wogg.json"
       }
     },	
+    {
+      "key": "玩偶gg",
+      "name": "玩偶gg",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "./wogg.json"
+      }
+    },
     {
       "key": "哔哩FM",
       "name": "哔哩",
@@ -38,43 +62,6 @@
       "ext": {
         "json": "./bilibili.json",
         "cookie": ""
-      }
-    },
-    {
-      "key": "玩偶gg",
-      "name": "玩偶gg",
-      "type": 3,
-      "api": "csp_Wogg",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./peizhi.json",
-        "siteUrl": "https://www.wogg.bf/",
-        "filter": "./wogg.json"
-      }
-    },	
-    {
-      "key": "玩偶 | 蜡笔",
-      "name": "玩偶 | 蜡笔",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./peizhi.json",
-        "siteUrl": "https://duopan.fun",
-        "filter": "./wogg.json"
-      }
-    },
-    {
-      "key": "ConfigCenter",
-      "name": "配置中心",
-      "type": 3,
-      "api": "csp_ConfigCenter",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./peizhi.json"
       }
     },
     {
@@ -113,6 +100,17 @@
       }
     },
     {
+      "key": "紙條搜",
+      "name": "紙條搜",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
       "key": "賤賤",
       "name": "賤賤",
       "type": 3,
@@ -122,29 +120,66 @@
       "ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
-      "key": "TgYunPan1",
-      "name": "TgYunPan1",
+      "key": "TgYunPanLocal1",
+      "name": "TgYunPanLocal1",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
         "channelUsername": "yunpanshare",
         "commonConfig": "./peizhi.json"
       }
     },
     {
-      "key": "TgYunPan5",
-      "name": "TgYunPan5",
+      "key": "TgYunPanLocal2",
+      "name": "TgYunPanLocal2",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
+        "channelUsername": "shareAliyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal3",
+      "name": "TgYunPanLocal3",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "kuakeyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal4",
+      "name": "TgYunPanLocal4",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "qixingzhenren",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal5",
+      "name": "TgYunPanLocal5",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
         "channelUsername": "guaguale115",
         "commonConfig": "./peizhi.json"
       }

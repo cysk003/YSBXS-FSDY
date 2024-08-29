@@ -1,11 +1,11 @@
 {
-  "spider": "./fty.jar;md5;5d760b50584f03b3f71c8a6d1c17aa8e",
+  "spider": "fty.jar?ref=master;md5;bad6f48fc2e797ce45de2a0b06adf6bc",
   "wallpaper": "https://u.kstore.space/download/5872/a.jpg",
-  "logo": "./aishang.png?ref=master",
+  "logo": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.png?ref=master",
   "sites": [
     {
       "key": "豆豆",
-      "name": "公众号:月牙猫┃QQ群:767923111,关注公众号获取最新版本",
+      "name": "春盈线路",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 1,
@@ -139,23 +139,30 @@
       "changeable": 0
     },
     {
-      "key": "短剧",
-      "name": "🌈上头┃短剧",
+      "key": "米搜",
+      "name": "🦋小米┃盘搜",
       "type": 3,
-      "api": "csp_Djtt",
+      "api": "csp_MIPanSo",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
-      "key": "酷看",
-      "name": "💡酷看┃秒播",
+      "key": "抠搜",
+      "name": "🍄抠抠┃搜搜",
       "type": 3,
-      "api": "csp_Kkys",
-      "timeout": 15,
+      "api": "csp_KkSs",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
     {
       "key": "Lib",
@@ -171,33 +178,21 @@
       }
     },
     {
-      "key": "专线",
-      "name": "🚝专线┃秒播",
+      "key": "酷看",
+      "name": "💡酷看┃秒播",
       "type": 3,
-      "api": "csp_Zx4k",
+      "api": "csp_Kkys",
       "timeout": 15,
-      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "小点",
-      "name": "💥小点┃多线",
+      "key": "文采",
+      "name": "💮文采┃秒播",
       "type": 3,
-      "api": "csp_Appxdys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "原创",
-      "name": "☀原创┃不卡",
-      "type": 3,
-      "api": "csp_YCyz",
-      "timeout": 15,
-      "playerType": 1,
+      "api": "csp_Jpys",
+      "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -224,25 +219,77 @@
       "ext": "https://www.czys.pro/"
     },
     {
-      "key": "文采",
-      "name": "💮文采┃秒播",
+      "key": "热播",
+      "name": "📺热播┃多线",
       "type": 3,
-      "api": "csp_Jpys",
+      "api": "csp_AppTT",
+      "timeout": 15,
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
+    },
+    {
+      "key": "追剧",
+      "name": "🍓追剧┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "playerType": 2,
+      "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+    },
+    {
+      "key": "萌米",
+      "name": "👀萌米┃多线",
+      "type": 3,
+      "api": "csp_AppTT",
+      "timeout": 15,
+      "playerType": 1,
+      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
+    },
+    {
+      "key": "南瓜",
+      "name": "🎃南瓜┃多线",
+      "type": 3,
+      "api": "csp_NanGua",
+      "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
     {
-      "key": "蛋蛋",
-      "name": "🍓蛋蛋┃多线",
+      "key": "厂长",
+      "name": "📔厂长┃不卡",
       "type": 3,
-      "api": "csp_Cddys",
+      "api": "csp_NewCz",
       "timeout": 15,
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.czys.pro/"
+    },
+    {
+      "key": "原创",
+      "name": "☀原创┃不卡",
+      "type": 3,
+      "api": "csp_YCyz",
+      "timeout": 15,
+      "playerType": 1,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 1
+    },
+    {
+      "key": "小点",
+      "name": "💥小点┃多线",
+      "type": 3,
+      "api": "csp_Appxd",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
     },
     {
       "key": "zxzj",
@@ -273,8 +320,8 @@
       "quickSearch": 1,
       "changeable": 1,
       "playerType": "1",
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/jp.js?ref=master"
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/jp.js"
     },
     {
       "key": "可可",
@@ -286,27 +333,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "热播",
-      "name": "📺热播┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
-    },
-    {
-      "key": "萌米",
-      "name": "👀萌米┃多线",
-      "type": 3,
-      "api": "csp_AppTT",
-      "timeout": 15,
-      "playerType": 1,
-      "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg=="
     },
     {
       "key": "Auete",
@@ -328,6 +354,15 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/"
+    },
+    {
+      "key": "短剧",
+      "name": "🌈上头┃短剧",
+      "type": 3,
+      "api": "csp_Djtt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "Dm84",
@@ -364,14 +399,30 @@
       "ext": "./lib/88看球.js",
       "style": {
         "type": "list"
-      }
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "310js",
+      "name": "⚽ 310┃看球",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/310直播.js",
+      "style": {
+        "type": "list"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     },
     {
       "key": "Jrsjs",
       "name": "⚽ Jrs┃球迷",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/jrk.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/jrk.js",
       "style": {
         "type": "list"
       },
@@ -390,14 +441,14 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/企鹅直播.json?ref=master"
+      "ext": "./lib/企鹅直播.json"
     },
     {
       "key": "酷奇",
       "name": "🎤酷奇┃MV",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/酷奇MV.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/酷奇MV.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -418,7 +469,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/MTV.json?ref=master"
+      "ext": "./lib/MTV.json"
     },
     {
       "key": "csp_Yj1211",
@@ -434,8 +485,8 @@
       "key": "虎牙直播js",
       "name": "🐯虎牙┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/huya2.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/huya2.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -449,8 +500,8 @@
       "key": "斗鱼js",
       "name": "🐟斗鱼┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/斗鱼直播.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/斗鱼直播.js",
       "style": {
         "type": "rect",
         "ratio": 1.755
@@ -461,26 +512,16 @@
       "changeable": 0
     },
     {
-      "key": "聚短视频js",
-      "name": "📽️聚短┃视频",
-      "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/短视频.js?ref=master",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "有声小说js",
       "name": "🎧有声┃小说",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/有声小说吧.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/有声小说吧.js",
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 0,
       "changeable": 0
     },
@@ -498,21 +539,8 @@
       }
     },
     {
-      "key": "米搜",
-      "name": "🦋米搜┃搜索",
-      "type": 3,
-      "api": "csp_MIPanSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
       "key": "夸搜",
-      "name": "🐌夸搜┃搜索",
+      "name": "🐟夸搜┃狸夸",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -526,7 +554,7 @@
     },
     {
       "key": "YiSo",
-      "name": "😹易搜┃搜索",
+      "name": "😹易搜┃阿狸",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -539,7 +567,7 @@
     },
     {
       "key": "PanSou",
-      "name": "🦊盘搜┃搜索",
+      "name": "🦊盘搜┃阿狸",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -551,21 +579,8 @@
       }
     },
     {
-      "key": "UpYun",
-      "name": "😻Up搜┃搜索",
-      "type": 3,
-      "api": "csp_UpYun",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto"
-      }
-    },
-    {
       "key": "PanSearch",
-      "name": "🙀盘Se┃搜索",
+      "name": "🙀盘Se┃阿狸",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -600,7 +615,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/bilibili.json?ref=master"
+      "ext": "./lib/bilibili.json"
     },
     {
       "key": "Biliych",
@@ -614,14 +629,14 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/biliych.json?ref=master"
+      "ext": "./lib/biliych.json"
     },
     {
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
-      "api": "./lib/drpy2.min.js?ref=master",
-      "ext": "./lib/兔小贝.js?ref=master",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/兔小贝.js",
       "style": {
         "type": "rect",
         "ratio": 1.597
@@ -642,7 +657,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/少儿教育.json?ref=master"
+      "ext": "./lib/少儿教育.json"
     },
     {
       "key": "小学课堂",
@@ -656,7 +671,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/小学课堂.json?ref=master"
+      "ext": "./lib/小学课堂.json"
     },
     {
       "key": "初中课堂",
@@ -670,7 +685,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/初中课堂.json?ref=master"
+      "ext": "./lib/初中课堂.json"
     },
     {
       "key": "高中教育",
@@ -684,7 +699,25 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "./lib/高中课堂.json?ref=master"
+      "ext": "./lib/高中课堂.json"
+    },
+    {
+      "key": "fan",
+      "name": "导航 www.饭太硬.com",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "cc",
+      "name": "请勿相信视频中广告",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
     }
   ],
   "doh": [
@@ -858,7 +891,7 @@
     {
       "name": "春盈-爱尚-IJK",
       "type": 0,
-      "url": "https://gitlink.org.cn/attachments/entries/get_file?download_url=https://www.gitlink.org.cn/api/hailin/cytx/raw/%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8Bzb5.0.css?ref=master",
+      "url": "./lib/cytx.txt?ref=master",
       "ua": "okhttp/3.15",
       "playerType": 1,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
@@ -866,7 +899,7 @@
     {
       "name": "春盈-爱尚-exo",
       "type": 0,
-      "url": "https://gitlink.org.cn/attachments/entries/get_file?download_url=https://www.gitlink.org.cn/api/hailin/cytx/raw/%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8Bzb5.0.css?ref=master",
+      "url": "./lib/cytx.txt?ref=master",
       "ua": "okhttp/3.15",
       "playerType": 2,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
@@ -907,6 +940,14 @@
       "name": "转播IPV6-1",
       "type": 0,
       "url": "./lib/y_g.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 1,
+      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+    },
+    {
+      "name": "广东吉林",
+      "type": 0,
+      "url": "./lib/广东加吉林地方台.txt?ref=master",
       "ua": "okhttp/3.15",
       "playerType": 1,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
