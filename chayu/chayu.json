@@ -1,5 +1,5 @@
 {
-  "spider": "./custom_spider.jar;md5;bad6f48fc2e797ce45de2a0b06adf6bc",
+  "spider": "./custom_spider.jar;md5;764421b45d9fff19a772e8366c64c5e5",
   "lives": [
     {
       "name": "电视┃直播",
@@ -38,17 +38,22 @@
       }
     },
     {
-      "key": "素白白",
-      "name": "素白┃无广",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/素白白.js"
-    },
-    {
       "key": "Djtt",
       "name": "无忧┃短剧",
       "type": 3,
       "api": "csp_Djtt"
+    },
+    {
+      "key": "Jpys",
+      "name": "金牌┃秒播",
+      "type": 3,
+      "api": "csp_Jpys"
+    },
+    {
+      "key": "LiteApple",
+      "name": "苹果┃复活",
+      "type": 3,
+      "api": "csp_LiteApple"
     },
     {
       "key": "NewCz",
@@ -58,23 +63,16 @@
       "ext": "https://www.czys.pro/"
     },
     {
-      "key": "Appxd",
-      "name": "兄弟┃多线",
-      "type": 3,
-      "api": "csp_Appxd",
-      "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
-    },
-    {
-      "key": "Kkys",
-      "name": "酷看┃秒播",
-      "type": 3,
-      "api": "csp_Kkys"
-    },
-    {
       "key": "NanGua",
       "name": "南瓜┃App",
       "type": 3,
       "api": "csp_NanGua"
+    },
+    {
+      "key": "YCyz",
+      "name": "原创┃无广",
+      "type": 3,
+      "api": "csp_YCyz"
     },
     {
       "key": "天天",
@@ -98,28 +96,23 @@
       "ext": "AO7TcBkd8I/B5wQc4Qma+pU="
     },
     {
-      "key": "Appmq",
-      "name": "麻雀┃多线",
+      "key": "Kekys",
+      "name": "可可┃多线",
       "type": 3,
-      "api": "csp_Appmq"
+      "api": "csp_Kekys"
     },
     {
-      "key": "LiteApple",
-      "name": "苹果┃复活",
+      "key": "Appxd",
+      "name": "兄弟┃多线",
       "type": 3,
-      "api": "csp_LiteApple"
+      "api": "csp_Appxd",
+      "ext": "FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="
     },
     {
-      "key": "YCyz",
-      "name": "原创┃无广",
+      "key": "Kkys",
+      "name": "酷看┃秒播",
       "type": 3,
-      "api": "csp_YCyz"
-    },
-    {
-      "key": "Jpys",
-      "name": "金牌┃秒播",
-      "type": 3,
-      "api": "csp_Jpys"
+      "api": "csp_Kkys"
     },
     {
       "key": "DiDuan",
@@ -133,12 +126,6 @@
       "type": 3,
       "api": "csp_Zxzj",
       "ext": "https://www.zxzjhd.com/"
-    },
-    {
-      "key": "Kekys",
-      "name": "可可┃多线",
-      "type": 3,
-      "api": "csp_Kekys"
     },
     {
       "key": "Auete",

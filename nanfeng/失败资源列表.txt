@@ -1,0 +1,2 @@
+http://127.0.0.1:9978/file/TVBox/peizhi.json
+https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/live.txt

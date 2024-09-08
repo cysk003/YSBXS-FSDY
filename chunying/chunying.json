@@ -1,7 +1,7 @@
 {
-  "spider": "fty.jar?ref=master;md5;bad6f48fc2e797ce45de2a0b06adf6bc",
+  "spider": "./fty.jar;md5;bad6f48fc2e797ce45de2a0b06adf6bc",
   "wallpaper": "https://u.kstore.space/download/5872/a.jpg",
-  "logo": "https://gitlink.org.cn/api/hailin/aishangtv5/raw/tvbox/aishang.png?ref=master",
+  "logo": "./aishang.png",
   "sites": [
     {
       "key": "豆豆",
@@ -931,7 +931,7 @@
     {
       "name": "悦婵IPTV-3",
       "type": 0,
-      "url": "./lib/ycl_iptv.txt",
+      "url": "https://iptv.b2og.com/txt/ycl_iptv.txt",
       "ua": "okhttp/3.15",
       "playerType": 1,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
@@ -945,9 +945,9 @@
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
     },
     {
-      "name": "广东吉林",
+      "name": "test",
       "type": 0,
-      "url": "./lib/广东加吉林地方台.txt?ref=master",
+      "url": "./lib/test.json",
       "ua": "okhttp/3.15",
       "playerType": 1,
       "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"

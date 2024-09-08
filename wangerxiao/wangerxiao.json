@@ -1,5 +1,5 @@
 {
-  "spider": "./wex.txt;md5;5907b996eba16b0a76f50980a2b6bf44",
+  "spider": "./wex.txt;md5;1844bdd8027f68cd275aeb67c36472eb",
   "wallpaper": "https://牛逼.王二小放牛娃.xyz/",
   "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716818643045/wexfnw.gif",
   "sites": [
@@ -422,14 +422,6 @@
       "changeable": 1
     },
     {
-      "key": "Wexdiguatv",
-      "name": "🌺追剧┃秒播🌺",
-      "type": 3,
-      "api": "csp_Wexdiguatv",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "Wexshandian",
       "name": "🌺闪电┃秒播🌺",
       "type": 3,
@@ -708,6 +700,14 @@
       "name": "🎠影子┃综合🎠",
       "type": 3,
       "api": "csp_Wexyingso",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "Wextyso",
+      "name": "🎠给力┃天逸🎠",
+      "type": 3,
+      "api": "csp_Wextyso",
       "searchable": 1,
       "changeable": 0
     },

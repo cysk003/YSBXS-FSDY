@@ -1,5 +1,5 @@
 {
-  "spider": "./okjpg.txt;md5;cbb824a6761aa150054da16f244e6b92",
+  "spider": "./okjpg.txt;md5;96a7414f28257af29ca81e0c29f10067",
   "wallpaper": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314187703/w1.jpg",
   "logo": "./lib/ol.txt",
   "sites": [
@@ -97,6 +97,22 @@
       },
       "timeout": 30
     },
+    {
+      "key": "多多弹幕",
+      "name": "👲多多┃影音",
+      "type": 3,
+      "api": "csp_Wobg",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "file://TV/ali_token.txt",
+        "cookie": "file://TV/quark_cookie.txt",
+        "site": "https://tv.yydsys.top",
+        "danmu": true
+      },
+      "timeout": 25
+    },	
     {
       "key": "蜡笔弹幕",
       "name": "👠蜡笔┃在线",

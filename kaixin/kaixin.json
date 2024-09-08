@@ -27,6 +27,15 @@
             "name": "猫TV线路",
             "type": 0,
             "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+            "logo": "https://epg.112114.eu.org/logo/{name}.png"
+        },
+  	    	            {
+            "name": "猫TV线路(EXO)",
+            "type": 0,
+            "url": "https://2883.kstore.space/%E2%91%A0%E7%8C%ABTV%E7%BA%BF%E8%B7%AF",
             "playerType": 2,
             "ua": "okhttp/3.15",
             "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -212,7 +221,7 @@
   {
   "name":"⑫V6阳线路",
   "type":0,
-  "url":"./lib/阳阳pv6.m3u",
+  "url":"https://6396.kstore.space/vip/阳阳pv6.m3u",
   "playerType":2,
   "ua":"okhttp/3.15",
   "epg":"https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -274,7 +283,7 @@
   {
   "name":"⑲测试线路",
   "type":0,
-  "url":"./lib/live.txt",
+  "url":"https://yubox.xyz/live.txt",
   "playerType":2,
   "ua":"okhttp/3.15",
   "epg":"https://epg.112114.eu.org/?ch={name}&date={date}",
@@ -421,248 +430,6 @@
   "logo":"https://epg.112114.eu.org/logo/{name}.png"
   }
   ],
-  "sites":[
-  {
-  "key":"①",
-  "name":"猫TV直播",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②",
-  "name":"春盈线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv2.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"③",
-  "name":"晴天线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv4.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"④",
-  "name":"天微线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv5.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑤",
-  "name":"蓝影兔源",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv6.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑥",
-  "name":"限时线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv8.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑦",
-  "name":"临测线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv9.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑧",
-  "name":"IPTV线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv10.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑨",
-  "name":"V6明线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv11.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑩",
-  "name":"V6阳线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv12.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑪",
-  "name":"ipv6线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv13.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑫",
-  "name":"开心线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv14.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑬",
-  "name":"网盘线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv15.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑭",
-  "name":"飞龙线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv17.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑮",
-  "name":"欧华线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv18.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑯",
-  "name":"测试线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv19.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑰",
-  "name":"综合线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv21.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑱",
-  "name":"综合二线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv22.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑲",
-  "name":"综合三线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv23.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"⑳",
-  "name":"综合四线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv24.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②①",
-  "name":"探探线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv25.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②②",
-  "name":"范明线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv26.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②③",
-  "name":"范明电台",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv27.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②④",
-  "name":"肥猫线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv29.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②⑤",
-  "name":"俊于线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv30.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②⑥",
-  "name":"斗鱼线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv31.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②⑦",
-  "name":"虎牙线路",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv32.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②⑧",
-  "name":"斗鱼专线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv33.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"②⑨",
-  "name":"虎牙专线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv34.txt",
-  "jar":"./lib/sdtv.jar"
-  },
-  {
-  "key":"③⑩",
-  "name":"MV专线",        
-  "type":3,
-  "api":"./lib/sdtv.js",
-  "ext":"./lib/sdtv35.txt",
-  "jar":"./lib/sdtv.jar"
-  }    ],
-
 	"sites":[
 {"key":"豆瓣","name":"豆瓣热播请关注公众号：“开心软件”","type":3,"api":"./lib/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./lib/douban.js"},
 {"key":"csp_LocalFile","name":"💻本地磁盘","type":3,"api":"csp_LocalFile","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
@@ -670,39 +437,42 @@
 {"key":"Alist","name":"🎦小雅网盘","type":3,"api":"csp_AList",    "parse_url": "","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext": "./lib/小雅.json"},
 {"key": "直播转点播","name": "📺︎电视直播点播","type": 3,"api": "./lib/zbzdb.js","searchable": 1,"quickSearch": 0,"playerType": 1,
 "filterable": 0,"ext": "./lib/zb.json"},
+{"key": "好趣网","name": "🎦好趣网","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 87,"ext": "./lib/好趣网.js"},
 {"key":"荐片","name":"🎦荐片┃秒播","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/jianpian.js"},
-
-
-{"key":"酷看","name":"🎦酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"荐片","name":"🎦荐片┃秒播","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/jianpian.js"},
 {"key":"文采","name":"🎦文采┃秒播","type":3,"api":"csp_Jpys","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"苹果","name":"🎦苹果┃不卡","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"小点","name":"🎦小点┃多线","type":3,"api":"csp_Appxd","searchable":1,"quickSearch":1,"changeable":0,"ext":"FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="},
-{"key":"煤球","name":"🎦煤球┃多线","type":3,"api":"csp_Appmq","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"Lib","name": "🎦立播┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"厂长","name":"🎦厂长┃不卡","type":3,"api":"csp_NewCz","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czys.pro/"},
+{"key":"热播","name":"🎦热播┃多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
+{"key":"追剧","name":"🎦追剧┃多线","type":3,"api":"csp_AppTT","playerType":2,"ext":"AO7TcBkd8IPB+BwH4Qma+opv"},
+{"key":"萌米","name":"🎦萌米┃多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
+{"key":"南瓜","name":"🎦南瓜┃多线","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"酷看","name":"🎦酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"🎦原创┃不卡","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"可可","name":"🎦可可┃多线","type":3,"api":"csp_Kekys","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"小点","name":"🎦小点┃多线","type":3,"api":"csp_Appxd","searchable":1,"quickSearch":1,"changeable":0,"ext":"FbjEd1ddiJ6bwA0Z8ijG89k6OstPBosSHy5L8uXWgRZGSNrCqC7DmxucvvflR3fsMy/Wnih3xSpmA3pwCNspfAcIH4fYhmOEdGxX3jEdjqUpC+m0fSxkNAbkIy0diJWirn+WOtBkBcYhsgA8u1igBBUadbO0s0MCPsYcbHFRNw=="},
 {"key":"zxzj","name":"🎦在线┃外剧","type":3,"api":"csp_Zxzj","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/"},
 {"key":"低端","name":"🎦低端┃外剧","type":3,"api":"csp_Ddrk","playerType":"2","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"贱贱","name":"🎦贱贱┃P2P","type":3,"searchable":1,"quickSearch":1,"changeable":1,"playerType":"1","api":"./lib/drpy2.min.js","ext":"./lib/jp.js"},
-{"key":"可可","name":"🎦可可┃多线","type":3,"api":"csp_Kekys","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"热播","name":"🎦热播┃多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU="},
-{"key":"萌米","name":"🎦萌米┃多线","type":3,"api":"csp_AppTT","timeout":15,"playerType":1,"ext":"AO7TcBkd8Iifux0Y8Qze6tVlMg=="},
-{"key":"南瓜","name":"🎦南瓜┃多线","type":3,"api":"csp_NanGua","timeout":15,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Auete","name":"🎦奥特┃无广","type": 3,"api":"csp_Auete","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.pro/"}, 
+{"key":"Lib","name": "🎦立播┃秒播","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"短剧","name":"🎦上头┃短剧","type":3,"api":"csp_Djtt","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"csp_JianPian","name":"🎦荐片","type":3,"api":"csp_JianPian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://112.124.0.131:20000"},
+{"key": "csp_XYQHiker_爱你短剧","name":"🎦爱你短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/爱你短剧.json"},
+{"key": "csp_XYQHiker_河马短剧","name":"🎦河马短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/河马短剧.json"},
+{"key":"米搜","name":"🎦小米┃盘搜","type":3,"api":"csp_MIPanSo","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
+{"key":"抠搜","name":"🎦抠抠┃搜搜","type":3,"api":"csp_KkSs","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
+{"key": "js_电影先生","name": "🎦电影先生","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./lib/电影先生.js"},		
+{"key": "js_毒蛇","name": "🎦毒蛇影视","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./lib/毒蛇电影[优].js"},		
+{"key": "js_subaibai","name": "🎦白白影视","type": 3,"api": "./lib/drpy2.min.js","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./lib/素白白[优].js"},
 {"key":"csp_Ikanbot","name": "🎦Ikanbot","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://v.aikanbot.com"},
 {"key":"csp_Bdys","name":"🎦哔嘀影视","type":3,"api":"csp_Bdys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.yjys02.com"},
 {"key": "奈飞影视","name":"🎦鸭奈飞┃秒播","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/ynfys.json"},
 {"key": "奈飞中文","name":"🎦奈飞┃秒播","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/nfzw.json"},
 
 {"key":"剧圈圈","name":"🎦剧圈圈","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/剧圈圈.json"},
-{"key": "hipy_js_采集之王[合]","name": "🎦采集之王[合]打不开请长按首页","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 210,"ext": "./lib/采集静态.json"},
+
 {"key": "hipy_js_哔哩影视[官]","name": "🎦哔哩影视[官](drpy_t3)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 73,"ext": "./lib/哔哩影视[官].js"},
 {"key": "hipy_js_4k剧院","name": "🎦4k剧院(drpy_t3)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 6,"ext": "./lib/4k剧院.js"},
-
-{"key": "csp_XYQHiker_爱你短剧","name":"🎦爱你短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/爱你短剧.json"},
-{"key": "csp_XYQHiker_河马短剧","name":"🎦河马短剧","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/河马短剧.json"},
 {"key": "360zy","name": "🎦360采集","type": 1,"api": "https://360zy.com/api.php/provide/vod?","searchable": 1,"changeable": 1,"categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","古装片","悬疑片","犯罪片","灾难片","国产剧","香港剧","韩国剧","欧美剧","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","欧美动漫","日韩动漫","现代都市","脑洞悬疑","年代穿越","古装仙侠","女频恋爱","成长逆袭","反转爽剧"]},
 
 {"key":"csp_xBPQ_九八","name":"🎦九八影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/98影视.json"},
